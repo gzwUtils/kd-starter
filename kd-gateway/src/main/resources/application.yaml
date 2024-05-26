@@ -1,0 +1,27 @@
+server:
+  port: 8094
+spring:
+  cloud:
+    gateway:
+      enabled: true
+      routes:
+      - id: kd-server
+        uri: http://123.249.77.250:8092
+        predicates:
+        - Path=/kd-server/**
+        filters:
+          - StripPrefix= 1
+
+# id 路由唯一ID 项目名称即可
+#uri 路由服务访问地址
+# predicates 路由断言
+# filters 过滤规则    StripPrefix= 1 代表将地址中/后的第一个截取，所以kd-server就截取掉了
+
+
+
+
+
+
+
+
+
