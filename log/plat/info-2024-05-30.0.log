@@ -1,0 +1,84 @@
+2024-05-30 15:51:43.970 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on localhost with PID 37060 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 15:51:43.975 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 15:51:44.887 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 15:51:44.890 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 15:51:44.915 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-05-30 15:51:45.331 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-05-30 15:51:45.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-05-30 15:51:45.339 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-30 15:51:45.340 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-05-30 15:51:45.486 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-30 15:51:45.486 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1446 ms
+2024-05-30 15:51:46.266 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-05-30 15:51:46.289 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-05-30 15:51:46.298 [main] INFO  org.action.KdHandler - Started KdHandler in 2.9 seconds (JVM running for 3.737)
+2024-05-30 15:55:08.828 [http-nio-8093-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-30 15:55:08.830 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-30 15:55:08.836 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2024-05-30 15:55:08.870 [http-nio-8093-exec-1] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:18:24.631 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on localhost with PID 41493 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 20:18:24.634 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 20:18:25.232 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 20:18:25.235 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 20:18:25.259 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-05-30 20:18:25.658 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-05-30 20:18:25.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-05-30 20:18:25.667 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-30 20:18:25.667 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-05-30 20:18:25.792 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-30 20:18:25.793 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1113 ms
+2024-05-30 20:18:26.584 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-05-30 20:18:26.607 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-05-30 20:18:26.617 [main] INFO  org.action.KdHandler - Started KdHandler in 2.525 seconds (JVM running for 3.068)
+2024-05-30 20:18:45.782 [http-nio-8093-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-30 20:18:45.783 [http-nio-8093-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-30 20:18:45.784 [http-nio-8093-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-30 20:18:45.806 [http-nio-8093-exec-2] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:20:21.479 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on localhost with PID 41569 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 20:20:21.481 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 20:20:22.011 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 20:20:22.014 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 20:20:22.038 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-05-30 20:20:22.374 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-05-30 20:20:22.381 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-05-30 20:20:22.381 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-30 20:20:22.381 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-05-30 20:20:22.474 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-30 20:20:22.475 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 961 ms
+2024-05-30 20:20:23.028 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-05-30 20:20:23.047 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-05-30 20:20:23.055 [main] INFO  org.action.KdHandler - Started KdHandler in 1.925 seconds (JVM running for 2.341)
+2024-05-30 20:20:28.133 [http-nio-8093-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-30 20:20:28.133 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-30 20:20:28.135 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-05-30 20:20:28.158 [http-nio-8093-exec-1] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:21:11.048 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-05-30 20:21:11.053 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-05-30 20:21:18.019 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on localhost with PID 41600 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 20:21:18.022 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 20:21:18.794 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 20:21:18.797 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 20:21:18.821 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-05-30 20:21:19.182 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-05-30 20:21:19.188 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-05-30 20:21:19.189 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-30 20:21:19.189 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-05-30 20:21:19.280 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-30 20:21:19.280 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1209 ms
+2024-05-30 20:21:20.081 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-05-30 20:21:20.110 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-05-30 20:21:20.121 [main] INFO  org.action.KdHandler - Started KdHandler in 2.518 seconds (JVM running for 3.045)
+2024-05-30 20:21:30.515 [http-nio-8093-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-30 20:21:30.515 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-30 20:21:30.516 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-30 20:21:30.532 [http-nio-8093-exec-1] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:21:55.888 [http-nio-8093-exec-3] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:36:55.442 [http-nio-8093-exec-1] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:37:07.603 [http-nio-8093-exec-3] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:37:08.942 [http-nio-8093-exec-4] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:37:13.886 [http-nio-8093-exec-5] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:37:25.098 [http-nio-8093-exec-6] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:37:26.103 [http-nio-8093-exec-7] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:38:04.967 [http-nio-8093-exec-8] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:46:11.996 [http-nio-8093-exec-5] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-05-30 20:46:19.795 [http-nio-8093-exec-6] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc

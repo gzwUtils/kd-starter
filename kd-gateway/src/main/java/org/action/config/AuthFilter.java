@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
  * @description：
  * @since：2024/5/19 20:38
  */
-
+@SuppressWarnings("all")
 @Component
 public class AuthFilter implements GlobalFilter, Ordered {
 
@@ -25,12 +25,12 @@ public class AuthFilter implements GlobalFilter, Ordered {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         ServerHttpRequest request = exchange.getRequest();
-        logger.info("请求地址:{}",request.getURI());
+        logger.warn("url:{},method:{}",request.getURI(),request.getMethod());
         return chain.filter(exchange);
     }
 
     @Override
     public int getOrder() {
-        return 0;
+        return 1;
     }
 }

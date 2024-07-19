@@ -1,0 +1,31 @@
+2024-06-01 12:52:42.128 [http-nio-8093-exec-10] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 12:52:49.862 [http-nio-8093-exec-2] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 12:52:51.328 [http-nio-8093-exec-1] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 12:52:52.667 [http-nio-8093-exec-3] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 12:52:53.184 [http-nio-8093-exec-4] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 12:52:53.517 [http-nio-8093-exec-5] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 12:52:54.236 [http-nio-8093-exec-6] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 13:24:14.930 [http-nio-8093-exec-8] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 13:24:19.713 [http-nio-8093-exec-9] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 13:24:29.608 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-06-01 13:24:29.674 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-06-01 13:25:19.333 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on localhost with PID 68620 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-06-01 13:25:19.336 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-06-01 13:25:20.040 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-01 13:25:20.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-01 13:25:20.070 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-06-01 13:25:20.476 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-06-01 13:25:20.484 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-06-01 13:25:20.485 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-01 13:25:20.485 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-06-01 13:25:20.611 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-01 13:25:20.611 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1226 ms
+2024-06-01 13:25:21.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-06-01 13:25:21.420 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-06-01 13:25:21.431 [main] INFO  org.action.KdHandler - Started KdHandler in 2.628 seconds (JVM running for 3.261)
+2024-06-01 13:25:26.357 [http-nio-8093-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-01 13:25:26.357 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-01 13:25:26.361 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-06-01 13:28:20.612 [http-nio-8093-exec-5] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-06-01 22:01:40.467 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-06-01 22:01:40.517 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete

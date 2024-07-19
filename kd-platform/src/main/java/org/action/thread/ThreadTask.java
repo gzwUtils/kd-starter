@@ -25,7 +25,10 @@ public class ThreadTask {
     public void send (){
         LOGGER.info("CompletableFuture 爬虫 k8s docker Aigc");
         kdThreadPool.execute(() ->
-                        LOGGER.warn("人生之艰难 就像那不息之长河 虽有东去大海之志 却流程缓慢 征程多坚" +
-                                " 然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!\r\n"));
+                        LOGGER.warn("\r\n" +
+                                    "                  人生之艰难\r\n" +
+                                "               就像那不息之长河\r\n" +
+                           "          虽有东去大海之志 却流程缓慢 征程多坚\r\n" +
+                    "    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!\r\n"));
     }
 }

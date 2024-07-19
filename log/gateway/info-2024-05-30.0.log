@@ -1,0 +1,148 @@
+2024-05-30 01:02:40.755 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2024-05-30 01:02:40.774 [main] INFO  org.action.GateWayApplication - Starting GateWayApplication using Java 1.8.0_181 on localhost with PID 30499 (/Users/gaozhiwei/Downloads/kd-starter/kd-gateway/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 01:02:40.775 [main] INFO  org.action.GateWayApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 01:02:41.637 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 01:02:41.639 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 01:02:41.664 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-05-30 01:02:41.813 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=58f9ee27-8867-3ce1-9fb0-918e48bfaf73
+2024-05-30 01:02:41.897 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:02:41.911 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-05-30 01:07:41.988 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2024-05-30 01:07:42.019 [main] INFO  org.action.GateWayApplication - Starting GateWayApplication using Java 1.8.0_181 on localhost with PID 30679 (/Users/gaozhiwei/Downloads/kd-starter/kd-gateway/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 01:07:42.021 [main] INFO  org.action.GateWayApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 01:07:43.287 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 01:07:43.290 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 01:07:43.317 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-05-30 01:07:43.521 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7380cf37-094e-3499-886d-083cd56dc264
+2024-05-30 01:07:43.621 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:07:43.623 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:07:43.624 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:07:43.964 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-30 01:07:43.968 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-30 01:07:45.221 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2024-05-30 01:07:45.222 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2024-05-30 01:07:45.222 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2024-05-30 01:07:45.222 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2024-05-30 01:07:45.222 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2024-05-30 01:07:45.222 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2024-05-30 01:07:45.222 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2024-05-30 01:07:45.222 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2024-05-30 01:07:45.222 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2024-05-30 01:07:45.223 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2024-05-30 01:07:45.223 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-30 01:07:45.223 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-30 01:07:45.223 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2024-05-30 01:07:45.223 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-30 01:07:45.843 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8080
+2024-05-30 01:07:45.866 [main] INFO  org.action.GateWayApplication - Started GateWayApplication in 4.657 seconds (JVM running for 5.433)
+2024-05-30 01:10:19.439 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2024-05-30 01:10:19.460 [main] INFO  org.action.GateWayApplication - Starting GateWayApplication using Java 1.8.0_181 on localhost with PID 30774 (/Users/gaozhiwei/Downloads/kd-starter/kd-gateway/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 01:10:19.461 [main] INFO  org.action.GateWayApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 01:10:20.219 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 01:10:20.221 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 01:10:20.242 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-05-30 01:10:20.389 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7380cf37-094e-3499-886d-083cd56dc264
+2024-05-30 01:10:20.468 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:10:20.469 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:10:20.471 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:10:20.694 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-30 01:10:20.698 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-30 01:10:21.530 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2024-05-30 01:10:21.530 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2024-05-30 01:10:21.530 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2024-05-30 01:10:21.531 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-30 01:10:23.077 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8094
+2024-05-30 01:10:23.240 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, dev kd-gateway 192.168.124.8:8094 register finished
+2024-05-30 01:10:23.258 [main] INFO  org.action.GateWayApplication - Started GateWayApplication in 4.291 seconds (JVM running for 4.828)
+2024-05-30 01:15:11.957 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2024-05-30 01:15:11.979 [main] INFO  org.action.GateWayApplication - Starting GateWayApplication using Java 1.8.0_181 on localhost with PID 30935 (/Users/gaozhiwei/Downloads/kd-starter/kd-gateway/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 01:15:11.980 [main] INFO  org.action.GateWayApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 01:15:13.216 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 01:15:13.219 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 01:15:13.249 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-05-30 01:15:13.474 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7380cf37-094e-3499-886d-083cd56dc264
+2024-05-30 01:15:13.588 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:15:13.590 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:15:13.592 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-30 01:15:13.861 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-30 01:15:13.867 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-30 01:15:15.168 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2024-05-30 01:15:15.169 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2024-05-30 01:15:15.169 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2024-05-30 01:15:15.169 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2024-05-30 01:15:15.169 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2024-05-30 01:15:15.169 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2024-05-30 01:15:15.169 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2024-05-30 01:15:15.169 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2024-05-30 01:15:15.170 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2024-05-30 01:15:15.170 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2024-05-30 01:15:15.170 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-30 01:15:15.170 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-30 01:15:15.170 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2024-05-30 01:15:15.170 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-30 01:15:15.923 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8094
+2024-05-30 01:15:15.966 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, dev kd-gateway 192.168.124.8:8094 register finished
+2024-05-30 01:15:15.987 [main] INFO  org.action.GateWayApplication - Started GateWayApplication in 4.784 seconds (JVM running for 5.658)
+2024-05-30 01:15:27.512 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-05-30 01:15:27.528 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2024-05-30 01:16:39.700 [main] INFO  org.action.GateWayApplication - Starting GateWayApplication using Java 1.8.0_181 on localhost with PID 30997 (/Users/gaozhiwei/Downloads/kd-starter/kd-gateway/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 01:16:39.703 [main] INFO  org.action.GateWayApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 01:16:39.705 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2024-05-30 01:16:40.481 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 01:16:40.483 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 01:16:40.503 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-05-30 01:16:40.615 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=bcd77e0b-5927-35ac-936a-8142f74e62c7
+2024-05-30 01:16:41.716 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2024-05-30 01:16:41.716 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2024-05-30 01:16:41.716 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2024-05-30 01:16:41.716 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2024-05-30 01:16:41.716 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2024-05-30 01:16:41.716 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2024-05-30 01:16:41.717 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2024-05-30 01:16:41.717 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2024-05-30 01:16:41.717 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2024-05-30 01:16:41.717 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2024-05-30 01:16:41.717 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-30 01:16:41.717 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-30 01:16:41.717 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2024-05-30 01:16:41.717 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-30 01:16:42.067 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8094
+2024-05-30 01:16:42.132 [main] INFO  org.action.GateWayApplication - Started GateWayApplication in 2.897 seconds (JVM running for 3.382)
+2024-05-30 01:16:47.789 [reactor-http-nio-2] INFO  org.action.config.AuthFilter - 请求地址:http://127.0.0.1:8094/kd-server
+2024-05-30 01:17:19.605 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2024-05-30 01:17:19.612 [main] INFO  org.action.GateWayApplication - Starting GateWayApplication using Java 1.8.0_181 on localhost with PID 31020 (/Users/gaozhiwei/Downloads/kd-starter/kd-gateway/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-05-30 01:17:19.613 [main] INFO  org.action.GateWayApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 01:17:20.254 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-30 01:17:20.256 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 01:17:20.272 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-05-30 01:17:20.377 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=bcd77e0b-5927-35ac-936a-8142f74e62c7
+2024-05-30 01:17:21.259 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-30 01:17:21.260 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2024-05-30 01:17:21.261 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-30 01:17:21.543 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8094
+2024-05-30 01:17:21.618 [main] INFO  org.action.GateWayApplication - Started GateWayApplication in 2.439 seconds (JVM running for 2.952)
+2024-05-30 01:17:27.934 [reactor-http-nio-2] INFO  org.action.config.AuthFilter - 请求地址:http://127.0.0.1:8094/kd-server
+2024-05-30 01:18:02.392 [reactor-http-nio-2] INFO  org.action.config.AuthFilter - 请求地址:http://127.0.0.1:8094/kd-server

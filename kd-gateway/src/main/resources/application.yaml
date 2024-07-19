@@ -6,7 +6,7 @@ spring:
       enabled: true
       routes:
       - id: kd-server
-        uri: http://123.249.77.250:8092
+        uri: http://127.0.0.1:8092
         predicates:
         - Path=/kd-server/**
         filters:
