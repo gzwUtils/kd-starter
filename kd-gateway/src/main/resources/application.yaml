@@ -6,12 +6,13 @@ spring:
       enabled: true
       routes:
       - id: kd-server
-        uri: http://127.0.0.1:8092
+        uri: http://123.249.77.250:8092
         predicates:
         - Path=/kd-server/**
         filters:
           - StripPrefix= 1
-
+  application:
+    name: kd-gateway
 # id 路由唯一ID 项目名称即可
 #uri 路由服务访问地址
 # predicates 路由断言

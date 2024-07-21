@@ -25,7 +25,7 @@ public class AuthFilter implements GlobalFilter, Ordered {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         ServerHttpRequest request = exchange.getRequest();
-        logger.warn("url:{},method:{}",request.getURI(),request.getMethod());
+        logger.warn("url:{}, method:{}",request.getURI(),request.getMethod());
         return chain.filter(exchange);
     }
 

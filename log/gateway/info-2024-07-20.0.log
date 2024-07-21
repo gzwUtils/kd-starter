@@ -1,0 +1,23 @@
+2024-07-20 01:30:52.447 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2024-07-20 01:30:52.452 [main] INFO  org.action.GateWayApplication - Starting GateWayApplication using Java 1.8.0_181 on bogon with PID 39398 (/Users/gaozhiwei/Downloads/kd-starter/kd-gateway/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-07-20 01:30:52.452 [main] INFO  org.action.GateWayApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 01:30:53.103 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-20 01:30:53.105 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-20 01:30:53.126 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-07-20 01:30:53.243 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=bcd77e0b-5927-35ac-936a-8142f74e62c7
+2024-07-20 01:30:54.744 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2024-07-20 01:30:54.744 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2024-07-20 01:30:54.744 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2024-07-20 01:30:54.745 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-07-20 01:30:55.109 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8094
+2024-07-20 01:30:55.183 [main] INFO  org.action.GateWayApplication - Started GateWayApplication in 3.242 seconds (JVM running for 3.89)

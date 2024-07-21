@@ -1,159 +1,54 @@
-2024-06-07 20:07:27.487 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 人生之艰难
- 就像那不息之长河
-虽有东去大海之志 却流程缓慢 征程多坚
- 然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 20:09:20.666 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-                   就像那不息之长河
-                    虽有东去大海之志 却流程缓慢 征程多坚
-                然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 20:10:23.073 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-                 虽有东去大海之志 却流程缓慢 征程多坚
-         然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 20:11:04.226 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-             虽有东去大海之志 却流程缓慢 征程多坚
-      然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 20:11:50.115 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:06:16.067 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8093 is already in use
+2024-07-21 12:09:04.450 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8093 is already in use
+2024-07-21 12:14:16.101 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚
     然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
 
-2024-06-07 20:13:36.684 [kd-starter-threadPool-2] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:14:17.971 [kd-starter-threadPool-2] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚
     然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
 
-2024-06-07 20:13:37.774 [kd-starter-threadPool-3] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:14:18.402 [kd-starter-threadPool-3] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚
     然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
 
-2024-06-07 21:22:40.017 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:15:11.838 [kd-starter-threadPool-4] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚
     然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
 
-2024-06-07 21:22:42.653 [kd-starter-threadPool-2] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:15:45.714 [kd-starter-threadPool-5] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚
     然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
 
-2024-06-07 21:22:43.635 [kd-starter-threadPool-3] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:15:46.707 [kd-starter-threadPool-6] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚
     然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
 
-2024-06-07 21:22:44.356 [kd-starter-threadPool-4] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:15:47.850 [kd-starter-threadPool-7] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚
     然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
 
-2024-06-07 21:22:45.184 [kd-starter-threadPool-5] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:15:48.717 [kd-starter-threadPool-8] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚
     然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
 
-2024-06-07 21:22:46.356 [kd-starter-threadPool-6] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:22:47.153 [kd-starter-threadPool-7] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:22:47.993 [kd-starter-threadPool-8] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:22:48.853 [kd-starter-threadPool-9] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:22:49.716 [kd-starter-threadPool-10] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:22:50.956 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:29:04.754 [kd-starter-threadPool-2] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:29:05.596 [kd-starter-threadPool-3] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:34:35.757 [kd-starter-threadPool-4] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:34:48.207 [kd-starter-threadPool-5] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:34:50.404 [kd-starter-threadPool-6] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:34:51.225 [kd-starter-threadPool-7] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:34:58.537 [kd-starter-threadPool-8] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 21:58:50.672 [kd-starter-threadPool-9] WARN  org.action.thread.ThreadTask - 
-                  人生之艰难
-               就像那不息之长河
-          虽有东去大海之志 却流程缓慢 征程多坚
-    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
-
-2024-06-07 22:59:28.949 [kd-starter-threadPool-10] WARN  org.action.thread.ThreadTask - 
+2024-07-21 12:36:49.525 [kd-starter-threadPool-9] WARN  org.action.thread.ThreadTask - 
                   人生之艰难
                就像那不息之长河
           虽有东去大海之志 却流程缓慢 征程多坚

@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa899c9-736c-4611-86dc-0cd4eb852741" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/classes/org/action/config/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/classes/org/action/config/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-platform/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/KdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/KdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/thread/ThreadTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/thread/ThreadTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/controller/KdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/controller/KdController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/thread/ThreadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/thread/ThreadTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-thread-pool-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/warn.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,28 +65,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gaozhiwei/Downloads/kd-starter&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;99887797fb5c635eb6ff48fb5c56f79d&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.kd-gateway [clean].executor": "Run",
+    "Maven.kd-gateway [package].executor": "Run",
+    "Maven.kd-starter [clean].executor": "Run",
+    "Maven.kd-starter [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.GateWayApplication.executor": "Run",
+    "Spring Boot.KdHandler.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gaozhiwei/Downloads/kd-starter",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "99887797fb5c635eb6ff48fb5c56f79d",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -106,7 +115,7 @@
       <recent name="org.action.utils" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.GateWayApplication">
     <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="kd-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.action.GateWayApplication" />
@@ -133,6 +142,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GateWayApplication" />
+        <item itemvalue="Spring Boot.KdHandler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,6 +169,8 @@
       <workItem from="1716347273180" duration="1061000" />
       <workItem from="1716434888165" duration="20181000" />
       <workItem from="1718470846117" duration="852000" />
+      <workItem from="1721409794542" duration="165000" />
+      <workItem from="1721409969063" duration="3426000" />
     </task>
     <servers />
   </component>
