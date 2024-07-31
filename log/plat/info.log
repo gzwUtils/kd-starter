@@ -1,66 +1,181 @@
-2024-07-21 12:06:14.240 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 67693 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
-2024-07-21 12:06:14.243 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
-2024-07-21 12:06:14.815 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-07-21 12:06:14.817 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-07-21 12:06:14.837 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
-2024-07-21 12:06:15.202 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
-2024-07-21 12:06:15.210 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:06:15.211 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2024-07-21 12:06:15.211 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
-2024-07-21 12:06:15.342 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-07-21 12:06:15.343 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1060 ms
-2024-07-21 12:06:16.052 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:06:16.082 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:06:16.082 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2024-07-21 12:06:16.087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:06:16.087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:06:16.093 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-07-21 12:09:02.564 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 67799 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
-2024-07-21 12:09:02.566 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
-2024-07-21 12:09:03.151 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-07-21 12:09:03.153 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-07-21 12:09:03.175 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
-2024-07-21 12:09:03.525 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
-2024-07-21 12:09:03.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:09:03.536 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2024-07-21 12:09:03.536 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
-2024-07-21 12:09:03.662 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-07-21 12:09:03.663 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1064 ms
-2024-07-21 12:09:04.438 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:09:04.469 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:09:04.469 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2024-07-21 12:09:04.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:09:04.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:09:04.479 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-07-21 12:10:00.217 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 67857 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
-2024-07-21 12:10:00.220 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
-2024-07-21 12:10:00.740 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-07-21 12:10:00.742 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-07-21 12:10:00.766 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
-2024-07-21 12:10:01.134 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
-2024-07-21 12:10:01.144 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:10:01.144 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2024-07-21 12:10:01.145 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
-2024-07-21 12:10:01.267 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-07-21 12:10:01.267 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1015 ms
-2024-07-21 12:10:02.013 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
-2024-07-21 12:10:02.035 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
-2024-07-21 12:10:02.044 [main] INFO  org.action.KdHandler - Started KdHandler in 2.229 seconds (JVM running for 2.798)
-2024-07-21 12:13:36.485 [http-nio-8093-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-21 12:13:36.515 [http-nio-8093-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2024-07-21 12:13:36.540 [http-nio-8093-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
-2024-07-21 12:14:16.052 [http-nio-8093-exec-5] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 12:14:17.970 [http-nio-8093-exec-6] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 12:14:18.400 [http-nio-8093-exec-7] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 12:15:11.836 [http-nio-8093-exec-8] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 12:15:45.712 [http-nio-8093-exec-9] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 12:15:46.706 [http-nio-8093-exec-10] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 12:15:47.831 [http-nio-8093-exec-1] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 12:15:48.716 [http-nio-8093-exec-2] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 12:36:49.515 [http-nio-8093-exec-5] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
-2024-07-21 20:56:16.042 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2024-07-21 20:56:16.117 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-07-31 01:43:15.265 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 25458 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-07-31 01:43:15.269 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 01:43:16.333 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-31 01:43:16.336 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-31 01:43:16.364 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-07-31 01:43:16.620 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$586a2a81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:43:16.634 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$d7706ff9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:43:16.920 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-07-31 01:43:16.932 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-07-31 01:43:16.933 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-31 01:43:16.933 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-07-31 01:43:17.065 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-31 01:43:17.066 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1751 ms
+2024-07-31 01:43:17.418 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-07-31 01:43:17.793 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 01:43:17.884 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 01:43:18.777 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-31 01:43:18.807 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-07-31 01:43:18.821 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-07-31 01:43:18.836 [main] INFO  org.action.KdHandler - Started KdHandler in 4.079 seconds (JVM running for 4.666)
+2024-07-31 01:43:19.294 [RMI TCP Connection(2)-192.168.124.8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31 01:43:19.294 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 01:43:19.296 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-31 01:43:28.916 [http-nio-8093-exec-2] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 01:44:34.061 [http-nio-8093-exec-5] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 01:44:40.455 [http-nio-8093-exec-6] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 01:46:16.008 [http-nio-8093-exec-8] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 01:47:16.598 [http-nio-8093-exec-9] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 01:57:41.395 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 26014 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-07-31 01:57:41.399 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 01:57:42.554 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-31 01:57:42.556 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-31 01:57:42.584 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-07-31 01:57:42.871 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$92645ffb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:57:42.900 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$116aa573] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:57:43.242 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-07-31 01:57:43.253 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-07-31 01:57:43.253 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-31 01:57:43.253 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-07-31 01:57:43.408 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-31 01:57:43.409 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1958 ms
+2024-07-31 01:57:43.756 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-07-31 01:57:44.052 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 01:57:44.104 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 01:57:45.046 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-31 01:57:45.072 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-07-31 01:57:45.086 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-07-31 01:57:45.100 [main] INFO  org.action.KdHandler - Started KdHandler in 4.205 seconds (JVM running for 4.794)
+2024-07-31 01:57:45.304 [RMI TCP Connection(2)-192.168.124.8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31 01:57:45.305 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 01:57:45.308 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-07-31 01:57:55.554 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-07-31 01:57:55.562 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-07-31 01:58:00.746 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 26045 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-07-31 01:58:00.749 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 01:58:01.436 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-31 01:58:01.438 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-31 01:58:01.455 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-07-31 01:58:01.662 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$f2e56bf1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:58:01.673 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$71ebb169] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:58:01.850 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-07-31 01:58:01.857 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-07-31 01:58:01.857 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-31 01:58:01.857 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-07-31 01:58:01.952 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-31 01:58:01.952 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1159 ms
+2024-07-31 01:58:02.197 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-07-31 01:58:02.376 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 01:58:02.418 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 01:58:03.014 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-31 01:58:03.038 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-07-31 01:58:03.050 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-07-31 01:58:03.067 [main] INFO  org.action.KdHandler - Started KdHandler in 2.715 seconds (JVM running for 3.221)
+2024-07-31 01:58:03.226 [RMI TCP Connection(2)-192.168.124.8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31 01:58:03.226 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 01:58:03.229 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-07-31 01:58:12.740 [http-nio-8093-exec-1] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 01:59:30.013 [http-nio-8093-exec-4] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 02:00:40.914 [http-nio-8093-exec-6] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 02:01:57.395 [http-nio-8093-exec-9] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 15:20:54.595 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on localhost with PID 31364 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-07-31 15:20:54.598 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 15:20:55.949 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-31 15:20:55.951 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-31 15:20:55.986 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-07-31 15:20:56.296 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$92645ffb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 15:20:56.324 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$116aa573] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 15:20:56.659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-07-31 15:20:56.669 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-07-31 15:20:56.670 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-31 15:20:56.670 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-07-31 15:20:56.862 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-31 15:20:56.862 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2203 ms
+2024-07-31 15:20:57.381 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-07-31 15:20:57.951 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 15:20:58.105 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 15:20:59.044 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-31 15:20:59.078 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-07-31 15:20:59.092 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-07-31 15:20:59.113 [main] INFO  org.action.KdHandler - Started KdHandler in 5.303 seconds (JVM running for 6.505)
+2024-07-31 15:21:00.186 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31 15:21:00.187 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 15:21:00.189 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-31 15:21:49.545 [http-nio-8093-exec-2] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 21:28:12.321 [http-nio-8093-exec-9] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 21:32:49.496 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 32881 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-07-31 21:32:49.500 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 21:32:50.542 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-31 21:32:50.544 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-31 21:32:50.569 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-07-31 21:32:50.826 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$1d1212da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 21:32:50.839 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$9c185852] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 21:32:51.081 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-07-31 21:32:51.089 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-07-31 21:32:51.090 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-31 21:32:51.090 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-07-31 21:32:51.195 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-31 21:32:51.196 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1640 ms
+2024-07-31 21:32:51.501 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-07-31 21:32:51.806 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 21:32:51.859 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 21:32:52.706 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-31 21:32:52.736 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-07-31 21:32:52.747 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-07-31 21:32:52.762 [main] INFO  org.action.KdHandler - Started KdHandler in 3.752 seconds (JVM running for 4.271)
+2024-07-31 21:32:52.961 [RMI TCP Connection(2)-192.168.124.8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31 21:32:52.961 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 21:32:52.963 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-31 21:33:37.190 [http-nio-8093-exec-2] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 21:34:48.449 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-07-31 21:34:48.465 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-07-31 22:33:09.341 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 35428 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-07-31 22:33:09.344 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 22:33:10.380 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-31 22:33:10.382 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-31 22:33:10.404 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-07-31 22:33:10.637 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$c3f6d873] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 22:33:10.651 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$42fd1deb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 22:33:10.899 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-07-31 22:33:10.908 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-07-31 22:33:10.908 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-31 22:33:10.908 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-07-31 22:33:11.015 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-31 22:33:11.016 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1623 ms
+2024-07-31 22:33:11.357 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-07-31 22:33:11.650 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 22:33:11.704 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 22:33:12.476 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-31 22:33:12.503 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-07-31 22:33:12.515 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-07-31 22:33:12.529 [main] INFO  org.action.KdHandler - Started KdHandler in 3.652 seconds (JVM running for 4.214)
+2024-07-31 22:33:12.780 [RMI TCP Connection(2)-192.168.124.8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31 22:33:12.780 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 22:33:12.782 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-31 22:33:32.319 [http-nio-8093-exec-2] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc
+2024-07-31 22:34:57.427 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-07-31 22:34:57.444 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-07-31 22:35:05.894 [main] INFO  org.action.KdHandler - Starting KdHandler using Java 1.8.0_181 on bogon with PID 35551 (/Users/gaozhiwei/Downloads/kd-starter/kd-platform/target/classes started by gaozhiwei in /Users/gaozhiwei/Downloads/kd-starter)
+2024-07-31 22:35:05.903 [main] INFO  org.action.KdHandler - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 22:35:06.664 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-31 22:35:06.666 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-31 22:35:06.690 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-07-31 22:35:06.902 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$cd9ca2c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 22:35:06.915 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$4ca2e838] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 22:35:07.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2024-07-31 22:35:07.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8093"]
+2024-07-31 22:35:07.124 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-31 22:35:07.124 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-07-31 22:35:07.232 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-31 22:35:07.232 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1287 ms
+2024-07-31 22:35:07.506 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-07-31 22:35:07.704 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 22:35:07.768 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for localhost/127.0.0.1:6379
+2024-07-31 22:35:08.451 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-31 22:35:08.475 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8093"]
+2024-07-31 22:35:08.485 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2024-07-31 22:35:08.498 [main] INFO  org.action.KdHandler - Started KdHandler in 3.031 seconds (JVM running for 3.52)
+2024-07-31 22:35:08.903 [RMI TCP Connection(2)-192.168.124.8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31 22:35:08.904 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 22:35:08.906 [RMI TCP Connection(2)-192.168.124.8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-31 22:35:19.388 [http-nio-8093-exec-2] INFO  org.action.thread.ThreadTask - CompletableFuture 爬虫 k8s docker Aigc

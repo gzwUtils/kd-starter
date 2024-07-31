@@ -6,15 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="kd-base" />
+        <module name="kd-lock" />
+        <module name="kd-thread-pool-starter" />
+        <module name="kd-limiter" />
+        <module name="kd-cache" />
         <module name="kd-platform" />
         <module name="kd-gateway" />
-        <module name="kd-thread-pool-starter" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kd-base" options="-parameters" />
+      <module name="kd-cache" options="-parameters" />
+      <module name="kd-common" options="" />
       <module name="kd-gateway" options="-parameters" />
+      <module name="kd-limiter" options="-parameters" />
+      <module name="kd-lock" options="-parameters" />
       <module name="kd-platform" options="-parameters" />
       <module name="kd-starter" options="" />
       <module name="kd-thread-pool-starter" options="-parameters" />

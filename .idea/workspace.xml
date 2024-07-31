@@ -5,19 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa899c9-736c-4611-86dc-0cd4eb852741" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/kd-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/enums/BizErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/enums/EnumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/enums/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/enums/RepoErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/exception/BizException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/exception/RemoteCallException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/request/BaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/request/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/response/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/response/kdResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/statemachine/BaseStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/statemachine/StateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-cache/src/main/java/org/action/config/CacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-cache/src/main/java/org/action/constant/CacheConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-cache/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-cache/src/main/resources/cache.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-limiter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-limiter/src/main/java/org/action/KdRateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-limiter/src/main/java/org/action/SlidingWindowRateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-limiter/src/main/java/org/action/config/RateLimiterConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-limiter/src/main/java/org/action/constant/LimitConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-limiter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-lock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-lock/src/main/java/org/action/DistributeLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-lock/src/main/java/org/action/DistributeLockAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-lock/src/main/java/org/action/DistributeLockConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-lock/src/main/java/org/action/DistributeLockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-lock/src/main/java/org/action/config/DistributeLockConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-lock/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/handler/GlobalWebExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/vo/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-gateway/target/classes/org/action/config/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/classes/org/action/config/AuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-platform/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/KdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/KdController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/utils/AjaxResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/controller/KdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/controller/KdController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/utils/AjaxResult$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/utils/AjaxResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/kd-platform-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/kd-platform-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/kd-platform-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/kd-platform-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/kd-thread-pool-starter-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kd-thread-pool-starter/target/kd-thread-pool-starter-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/warn.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/plat/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/plat/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/plat/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +71,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -83,13 +128,13 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/gaozhiwei/Downloads/kd-starter",
+    "last_opened_file_path": "/Users/gaozhiwei/Downloads/kd-starter/kd-common/kd-lock/src/main/resources/META-INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
@@ -105,6 +150,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kd-common/kd-lock/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/kd-common/kd-cache/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/kd-common/kd-limiter/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/kd-platform/src/main/resources" />
       <recent name="$PROJECT_DIR$/kd-gateway/src/main/resources" />
     </key>
@@ -112,10 +160,14 @@
       <recent name="$PROJECT_DIR$/kd-thread-pool-starter/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.action.enums" />
+      <recent name="org.action.vo" />
+      <recent name="org.action" />
+      <recent name="org.action.exception" />
       <recent name="org.action.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GateWayApplication">
+  <component name="RunManager" selected="Spring Boot.KdHandler">
     <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="kd-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.action.GateWayApplication" />
@@ -144,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GateWayApplication" />
         <item itemvalue="Spring Boot.KdHandler" />
+        <item itemvalue="Spring Boot.GateWayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +222,7 @@
       <workItem from="1716434888165" duration="20181000" />
       <workItem from="1718470846117" duration="852000" />
       <workItem from="1721409794542" duration="165000" />
-      <workItem from="1721409969063" duration="3426000" />
+      <workItem from="1721409969063" duration="25741000" />
     </task>
     <servers />
   </component>

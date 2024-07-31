@@ -1,0 +1,28 @@
+2024-07-30 23:38:30.352 [main] WARN  i.n.resolver.dns.DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2024-07-30 23:39:36.452 [http-nio-8093-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'key' for method parameter type String is not present]
+2024-07-30 23:39:53.381 [http-nio-8093-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'key' for method parameter type String is not present]
+2024-07-30 23:39:55.444 [http-nio-8093-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'key' for method parameter type String is not present]
+2024-07-30 23:40:15.489 [kd-starter-threadPool-1] WARN  org.action.thread.ThreadTask - 
+                  人生之艰难
+               就像那不息之长河
+          虽有东去大海之志 却流程缓慢 征程多坚
+    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
+
+2024-07-30 23:41:25.566 [kd-starter-threadPool-2] WARN  org.action.thread.ThreadTask - 
+                  人生之艰难
+               就像那不息之长河
+          虽有东去大海之志 却流程缓慢 征程多坚
+    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
+
+2024-07-30 23:45:38.540 [kd-starter-threadPool-3] WARN  org.action.thread.ThreadTask - 
+                  人生之艰难
+               就像那不息之长河
+          虽有东去大海之志 却流程缓慢 征程多坚
+    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
+
+2024-07-30 23:51:08.618 [kd-starter-threadPool-4] WARN  org.action.thread.ThreadTask - 
+                  人生之艰难
+               就像那不息之长河
+          虽有东去大海之志 却流程缓慢 征程多坚
+    然 江河水总有入海之时，而人生之志 却常常难以实现 令人抱恨终身!!
+

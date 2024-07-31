@@ -1,1 +1,6 @@
-2024-07-21 12:17:26.666 [reactor-http-nio-2] WARN  org.action.config.AuthFilter - url:http://127.0.0.1:8094/kd-server/,method:GET
+2024-07-30 00:11:22.555 [reactor-http-nio-2] WARN  org.action.config.AuthFilter - url:http://localhost:8094/kd-server/, method:GET
+2024-07-30 00:13:39.820 [reactor-http-nio-3] WARN  org.action.config.AuthFilter - url:http://localhost:8094/kd-server/, method:GET
+2024-07-30 00:13:59.107 [reactor-http-nio-3] WARN  reactor.netty.http.client.HttpClientConnect - [6b65f60d-1, L:0.0.0.0/0.0.0.0:63577 ! R:/123.249.77.250:8092] The connection observed an error
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+2024-07-30 00:14:36.181 [reactor-http-nio-2] WARN  org.action.config.AuthFilter - url:http://localhost:8094/kd-server/, method:GET
+2024-07-30 00:15:05.143 [reactor-http-nio-2] WARN  org.action.config.AuthFilter - url:http://localhost:8094/kd-server/, method:GET
