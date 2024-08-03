@@ -1,0 +1,5 @@
+spring:
+  sms:
+    account: C03579155
+    smsPassword: e2159655367e39bd2daf58142f73e6cf
+    host: http://106.ihuyi.cn/webservice/sms.php?method=Submit

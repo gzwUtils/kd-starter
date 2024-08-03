@@ -32,6 +32,18 @@
 
         <dependency>
             <groupId>org.action</groupId>
+            <artifactId>kd-rpc</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-config</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
             <artifactId>kd-base</artifactId>
             <version>1.0</version>
         </dependency>
@@ -39,6 +51,12 @@
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-limiter</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-sms</artifactId>
             <version>1.0</version>
         </dependency>
 
@@ -56,6 +74,12 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.14.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-api</artifactId>
+            <version>1.0</version>
         </dependency>
 
     </dependencies>

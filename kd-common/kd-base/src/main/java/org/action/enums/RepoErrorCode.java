@@ -28,6 +28,28 @@ public enum RepoErrorCode implements ErrorCode {
      */
     DUPLICATED("DUPLICATED", "重复请求"),
 
+
+    /**
+     * 短信发送异常
+     */
+    SMS_FAIL("SMS_FAIL", "短信发送异常"),
+
+
+    /**
+     * 通知保存失败
+     */
+    NOTICE_SAVE_FAILED("NOTICE_SAVE_FAILED", "通知保存失败"),
+
+    /**
+     * 不允许重复发送通知
+     */
+    SEND_NOTICE_DUPLICATED("SEND_NOTICE_DUPLICATED", "不允许重复发送通知"),
+
+    /**
+     * 短信模版不存在
+     */
+    TEMPLATE_NOT_FOUND("TEMPLATE_NOT_FOUND", "短信模版不存在"),
+
     /**
      * 参数校验错误
      */

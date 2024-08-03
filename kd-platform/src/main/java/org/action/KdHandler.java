@@ -1,5 +1,6 @@
 package org.action;
 
+import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @description：
  * @since：2024/4/24 02:05
  */
-
+@EnableDubbo
 @SpringBootApplication
 public class KdHandler {
 

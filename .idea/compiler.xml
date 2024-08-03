@@ -7,24 +7,46 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kd-base" />
-        <module name="kd-lock" />
+        <module name="kd-notice" />
+        <module name="kd-job" />
         <module name="kd-thread-pool-starter" />
-        <module name="kd-limiter" />
-        <module name="kd-cache" />
+        <module name="kd-sms" />
+        <module name="kd-mq" />
+        <module name="kd-api" />
         <module name="kd-platform" />
         <module name="kd-gateway" />
+        <module name="kd-config" />
+        <module name="kd-lock" />
+        <module name="kd-es" />
+        <module name="kd-limiter" />
+        <module name="kd-datasource" />
+        <module name="kd-cache" />
+        <module name="kd-sa-token" />
+        <module name="kd-rpc" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kd-api" options="-parameters" />
       <module name="kd-base" options="-parameters" />
+      <module name="kd-business" options="" />
       <module name="kd-cache" options="-parameters" />
       <module name="kd-common" options="" />
+      <module name="kd-config" options="-parameters" />
+      <module name="kd-datasource" options="-parameters" />
+      <module name="kd-es" options="-parameters" />
       <module name="kd-gateway" options="-parameters" />
+      <module name="kd-job" options="-parameters" />
       <module name="kd-limiter" options="-parameters" />
       <module name="kd-lock" options="-parameters" />
+      <module name="kd-mq" options="-parameters" />
+      <module name="kd-notice" options="-parameters" />
       <module name="kd-platform" options="-parameters" />
+      <module name="kd-rpc" options="-parameters" />
+      <module name="kd-sa-token" options="-parameters" />
+      <module name="kd-sms" options="-parameters" />
       <module name="kd-starter" options="" />
       <module name="kd-thread-pool-starter" options="-parameters" />
     </option>

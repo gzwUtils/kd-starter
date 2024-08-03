@@ -1,0 +1,13 @@
+spring:
+  xxl:
+    job:
+      enabled: true
+      adminAddresses: http://127.0.0.1:20004/xxl-job-admin/  #xxljob的地址，
+      executorAppName: kd-xxl-job-executor-dev  #需要和你在xxl-job上创建的执行器名字保持一致
+      accessToken: kd_token #需要和你在xxl-job上创建的token保持一致，
+      executorIp: 127.0.0.1
+      executorPort: 9999
+      executorLogRetentionDays: 20
+      executorLogPath: log/xxl-job/
+
+

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: kd-notice
+  config:
+    import: classpath:config.yml
