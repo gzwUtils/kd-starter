@@ -65,7 +65,7 @@ public class NoticeKdCadeServiceImpl implements NoticeKdCadeService {
 
 
             SmsSendResponse result = smsService.sendMsg(notice.getTargetAddress(), notice.getNoticeContent());
-            if (!Objects.equals(result.getCode(), "0")) {
+            if (Objects.equals(result.getCode(), "2")) {
                 notice.setState(NoticeState.SUCCESS);
                 notice.setSendSuccessTime(new Date());
                 noticeService.updateById(notice);

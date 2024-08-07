@@ -1,7 +1,0 @@
-2024-07-30 00:13:59.147 [reactor-http-nio-3] ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler - [25c0c8e9-4]  500 Server Error for HTTP GET "/kd-server/"
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP GET "/kd-server/" [ExceptionHandlingWebHandler]
-Original Stack Trace:

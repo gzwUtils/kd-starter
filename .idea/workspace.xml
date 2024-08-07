@@ -5,108 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa899c9-736c-4611-86dc-0cd4eb852741" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/NoticeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/entity/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/entity/TemplateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/enums/NoticeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/enums/NoticeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kd/mapper/NoticeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kd/mapper/TemplateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kdCade/NoticeKdCadeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/service/TemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/utils/FreemarkerUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/notice/constant/NoticeConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/notice/req/MessageParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/notice/req/SendInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/notice/resp/NoticeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/notice/service/NoticeKdCadeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/utils/BeanValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-config/src/main/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-datasource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/java/org/action/config/DatasourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/java/org/action/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/java/org/action/handler/DataObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/resources/datasource.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-es/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-job/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-job/src/main/java/org/action/config/XxlJobConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-job/src/main/java/org/action/config/XxlJobProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-job/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-job/src/main/resources/job.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-mq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-rpc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/java/org/action/rpc/config/RpcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/java/org/action/rpc/kdCade/KdCade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/java/org/action/rpc/kdCade/KdCadeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sa-token/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sms/src/main/java/org/action/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sms/src/main/java/org/action/SmsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sms/src/main/java/org/action/config/SmsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sms/src/main/java/org/action/config/SmsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sms/src/main/java/org/action/resp/SmsSendResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sms/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-sms/src/main/resources/sms.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/enums/RepoErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/enums/RepoErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/response/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/response/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/BizErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/BizErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/EnumUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/EnumUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/ErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/ErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/RepoErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/RepoErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/exception/BizException.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/exception/BizException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/exception/RemoteCallException.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/exception/RemoteCallException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/exception/SystemException.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/exception/SystemException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/request/BaseRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/request/BaseRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/request/PageRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/request/PageRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/response/BaseResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/response/BaseResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/response/kdResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/response/kdResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/statemachine/BaseStateMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/statemachine/BaseStateMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/statemachine/StateMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/statemachine/StateMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-cache/target/classes/org/action/config/CacheConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-cache/target/classes/org/action/config/CacheConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-cache/target/classes/org/action/constant/CacheConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-cache/target/classes/org/action/constant/CacheConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/classes/org/action/KdRateLimiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-limiter/target/classes/org/action/KdRateLimiter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/classes/org/action/SlidingWindowRateLimiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-limiter/target/classes/org/action/SlidingWindowRateLimiter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/classes/org/action/config/RateLimiterConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-limiter/target/classes/org/action/config/RateLimiterConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/classes/org/action/constant/LimitConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-limiter/target/classes/org/action/constant/LimitConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway/target/classes/org/action/GateWayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/classes/org/action/GateWayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway/target/classes/org/action/config/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/classes/org/action/config/AuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/KdHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/KdHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/KdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/KdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/KdHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/KdHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/controller/KdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/controller/KdController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/handler/GlobalWebExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/handler/GlobalWebExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/thread/ThreadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/thread/ThreadTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/vo/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/vo/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/kd-platform-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/kd-platform-1.0.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/classes/org/action/KdThreadPoolAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-thread-pool-starter/target/classes/org/action/KdThreadPoolAutoConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kdCade/NoticeKdCadeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kdCade/NoticeKdCadeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kdCade/NoticeKdCadeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kdCade/NoticeKdCadeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/resources/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/resources/datasource.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/target/classes/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-datasource/target/classes/datasource.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-rpc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/org/action/rpc/config/RpcConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/org/action/rpc/kdCade/KdCade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/org/action/rpc/kdCade/KdCadeAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/rpc.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/kd-thread-pool-starter-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kd-thread-pool-starter/target/kd-thread-pool-starter-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error-2024-05-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-05-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-05-31.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-06-01.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-07-20.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-07-21.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/warn-2024-05-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/warn-2024-07-21.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/warn.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-05-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-07-21.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-07-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-07-31.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-08-02.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-05-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-06-01.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-07-20.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-07-21.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-07-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-07-31.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-08-01.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-08-02.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-05-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-06-01.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-07-20.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-07-21.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-07-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-07-31.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-08-01.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-08-02.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/warn.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,9 +131,14 @@
     "Maven.kd-gateway [clean].executor": "Run",
     "Maven.kd-gateway [package].executor": "Run",
     "Maven.kd-notice [clean].executor": "Run",
+    "Maven.kd-notice [package].executor": "Run",
     "Maven.kd-platform [clean].executor": "Run",
+    "Maven.kd-platform [package].executor": "Run",
+    "Maven.kd-rpc [clean].executor": "Run",
     "Maven.kd-starter [clean].executor": "Run",
+    "Maven.kd-starter [install].executor": "Run",
     "Maven.kd-starter [package].executor": "Run",
+    "Maven.kd-starter [validate].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -189,13 +146,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.GateWayApplication.executor": "Run",
-    "Spring Boot.KdHandler.executor": "Run",
+    "Spring Boot.KdHandler.executor": "Debug",
     "Spring Boot.NoticeApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/resources",
+    "last_opened_file_path": "/Users/gaozhiwei/Downloads/kd-starter/kd-common/kd-rpc/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -351,7 +308,8 @@
       <workItem from="1722671437043" duration="354000" />
       <workItem from="1722671919186" duration="1811000" />
       <workItem from="1722674073136" duration="1900000" />
-      <workItem from="1722676099875" duration="275000" />
+      <workItem from="1722676099875" duration="8953000" />
+      <workItem from="1723032119087" duration="452000" />
     </task>
     <servers />
   </component>
