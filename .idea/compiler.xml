@@ -13,16 +13,16 @@
         <module name="kd-sms" />
         <module name="kd-mq" />
         <module name="kd-api" />
-        <module name="kd-platform" />
         <module name="kd-gateway" />
+        <module name="kd-platform" />
         <module name="kd-config" />
-        <module name="kd-lock" />
         <module name="kd-es" />
+        <module name="kd-lock" />
         <module name="kd-limiter" />
         <module name="kd-datasource" />
         <module name="kd-cache" />
-        <module name="kd-sa-token" />
         <module name="kd-rpc" />
+        <module name="kd-sa-token" />
       </profile>
     </annotationProcessing>
   </component>

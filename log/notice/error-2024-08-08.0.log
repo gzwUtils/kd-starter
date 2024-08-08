@@ -1,0 +1,2022 @@
+2024-08-08 20:43:44.719 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 20:43:44.719 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 20:43:44.760 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 20:45:54.720 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:54.742 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:55.269 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:55.785 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:56.305 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:56.832 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:57.354 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:57.880 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:58.405 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:58.923 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:59.442 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:45:59.960 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:00.484 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:01.007 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:01.530 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:02.051 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:02.569 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:03.092 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:03.633 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:04.149 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:04.665 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:05.182 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:05.701 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:06.234 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:06.755 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:07.278 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:07.807 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:08.328 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:08.850 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:09.367 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:09.893 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:10.414 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:10.929 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:11.447 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:11.967 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:12.496 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:13.017 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:13.538 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:14.058 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:14.577 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:15.095 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:15.612 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:16.137 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:46:16.651 [Druid-ConnectionPool-Create-809260538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/kd, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'kd'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1703)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1801)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2946)
+2024-08-08 20:54:25.115 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 20:54:25.116 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 20:54:25.166 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 20:57:02.051 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 20:57:02.053 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 20:57:02.100 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 21:01:31.191 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 21:01:31.192 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 21:01:31.223 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 21:08:54.205 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 21:08:54.206 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 21:08:54.295 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 21:40:36.621 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 21:40:36.623 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 21:40:36.682 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 21:50:10.854 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 21:50:10.857 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 21:50:10.914 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 22:15:28.468 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 22:15:28.469 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 22:15:28.510 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 22:22:55.424 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: com/alibaba/nacos/api/PropertyKeyConst
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.setProperties(NacosDynamicConfiguration.java:186)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildNacosProperties(NacosDynamicConfiguration.java:166)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:96)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.PropertyKeyConst
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2024-08-08 22:31:12.873 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: com/alibaba/nacos/api/PropertyKeyConst
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.setProperties(NacosDynamicConfiguration.java:186)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildNacosProperties(NacosDynamicConfiguration.java:166)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:96)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.PropertyKeyConst
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2024-08-08 22:34:17.346 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: com/alibaba/nacos/api/PropertyKeyConst
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.setProperties(NacosDynamicConfiguration.java:186)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildNacosProperties(NacosDynamicConfiguration.java:166)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:96)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.PropertyKeyConst
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2024-08-08 22:36:35.144 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: com/alibaba/nacos/api/PropertyKeyConst
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.setProperties(NacosDynamicConfiguration.java:186)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildNacosProperties(NacosDynamicConfiguration.java:166)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:96)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.PropertyKeyConst
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2024-08-08 22:39:21.740 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: com/alibaba/nacos/api/PropertyKeyConst
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.setProperties(NacosDynamicConfiguration.java:186)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildNacosProperties(NacosDynamicConfiguration.java:166)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:96)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.PropertyKeyConst
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2024-08-08 22:42:02.796 [main] ERROR o.a.d.c.support.nacos.NacosDynamicConfiguration -  [DUBBO] com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+com.alibaba.nacos.api.exception.NacosException: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:46)
+	at com.alibaba.nacos.api.NacosFactory.createConfigService(NacosFactory.java:44)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildConfigService(NacosDynamicConfiguration.java:109)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:97)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:29)
+	at com.alibaba.nacos.client.logging.NacosLogging$NacosLoggingInstance.<clinit>(NacosLogging.java:49)
+	at com.alibaba.nacos.client.logging.NacosLogging.getInstance(NacosLogging.java:53)
+	at com.alibaba.nacos.client.utils.LogUtils.<clinit>(LogUtils.java:35)
+	at com.alibaba.nacos.client.config.NacosConfigService.<clinit>(NacosConfigService.java:57)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:41)
+	... 28 common frames omitted
+2024-08-08 22:42:02.837 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+
+The following method did not exist:
+
+    com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+
+The calling method's class, com.alibaba.nacos.client.logging.AbstractNacosLogging, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-client/1.4.2/nacos-client-1.4.2.jar!/com/alibaba/nacos/client/logging/AbstractNacosLogging.class
+
+The called method's class, com.alibaba.nacos.common.utils.StringUtils, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar!/com/alibaba/nacos/common/utils/StringUtils.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.common.utils.StringUtils: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes com.alibaba.nacos.client.logging.AbstractNacosLogging and com.alibaba.nacos.common.utils.StringUtils
+
+2024-08-08 22:45:13.505 [main] ERROR o.apache.dubbo.config.deploy.DefaultModuleDeployer -  [DUBBO] Model start failed: Dubbo Module[1.1.1] start failed: java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 22:45:13.506 [main] ERROR o.a.dubbo.config.deploy.DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](kd-notice) found failed module: Dubbo Module[1.1.1], dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-14. This may be caused by , go to https://dubbo.apache.org/faq/5/14 to find instructions. 
+java.lang.NoSuchMethodError: com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	at org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+	at org.apache.dubbo.metadata.store.nacos.NacosMetadataReport.registerServiceAppMapping(NacosMetadataReport.java:285)
+	at org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping.map(MetadataServiceNameMapping.java:123)
+	at org.apache.dubbo.config.ServiceConfig.mapServiceName(ServiceConfig.java:415)
+	at org.apache.dubbo.config.ServiceConfig.lambda$exported$1(ServiceConfig.java:401)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.dubbo.config.ServiceConfig.exported(ServiceConfig.java:394)
+	at org.apache.dubbo.config.spring.ServiceBean.exported(ServiceBean.java:132)
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:541)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:340)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServiceInternal(DefaultModuleDeployer.java:477)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.exportServices(DefaultModuleDeployer.java:424)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:174)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:156)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:157)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:143)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:52)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+2024-08-08 22:45:13.542 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper.publishConfigCas(NacosConfigServiceWrapper.java:65)
+
+The following method did not exist:
+
+    com.alibaba.nacos.api.config.ConfigService.publishConfigCas(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+The calling method's class, org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/org/apache/dubbo/dubbo/3.2.10/dubbo-3.2.10.jar!/org/apache/dubbo/metadata/store/nacos/NacosConfigServiceWrapper.class
+
+The called method's class, com.alibaba.nacos.api.config.ConfigService, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar!/com/alibaba/nacos/api/config/ConfigService.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.api.config.ConfigService: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-api/1.4.2/nacos-api-1.4.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.apache.dubbo.metadata.store.nacos.NacosConfigServiceWrapper and com.alibaba.nacos.api.config.ConfigService
+
+2024-08-08 22:47:52.195 [main] ERROR o.a.d.c.support.nacos.NacosDynamicConfiguration -  [DUBBO] com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+com.alibaba.nacos.api.exception.NacosException: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:46)
+	at com.alibaba.nacos.api.NacosFactory.createConfigService(NacosFactory.java:44)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildConfigService(NacosDynamicConfiguration.java:109)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:97)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:29)
+	at com.alibaba.nacos.client.logging.NacosLogging$NacosLoggingInstance.<clinit>(NacosLogging.java:49)
+	at com.alibaba.nacos.client.logging.NacosLogging.getInstance(NacosLogging.java:53)
+	at com.alibaba.nacos.client.utils.LogUtils.<clinit>(LogUtils.java:35)
+	at com.alibaba.nacos.client.config.NacosConfigService.<clinit>(NacosConfigService.java:57)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:41)
+	... 28 common frames omitted
+2024-08-08 22:47:52.230 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+
+The following method did not exist:
+
+    com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+
+The calling method's class, com.alibaba.nacos.client.logging.AbstractNacosLogging, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-client/1.4.2/nacos-client-1.4.2.jar!/com/alibaba/nacos/client/logging/AbstractNacosLogging.class
+
+The called method's class, com.alibaba.nacos.common.utils.StringUtils, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar!/com/alibaba/nacos/common/utils/StringUtils.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.common.utils.StringUtils: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes com.alibaba.nacos.client.logging.AbstractNacosLogging and com.alibaba.nacos.common.utils.StringUtils
+
+2024-08-08 22:54:00.164 [main] ERROR o.a.d.c.support.nacos.NacosDynamicConfiguration -  [DUBBO] com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+com.alibaba.nacos.api.exception.NacosException: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:46)
+	at com.alibaba.nacos.api.NacosFactory.createConfigService(NacosFactory.java:44)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildConfigService(NacosDynamicConfiguration.java:109)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:97)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:29)
+	at com.alibaba.nacos.client.logging.NacosLogging$NacosLoggingInstance.<clinit>(NacosLogging.java:49)
+	at com.alibaba.nacos.client.logging.NacosLogging.getInstance(NacosLogging.java:53)
+	at com.alibaba.nacos.client.utils.LogUtils.<clinit>(LogUtils.java:35)
+	at com.alibaba.nacos.client.config.NacosConfigService.<clinit>(NacosConfigService.java:57)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:41)
+	... 28 common frames omitted
+2024-08-08 22:54:00.201 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+
+The following method did not exist:
+
+    com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+
+The calling method's class, com.alibaba.nacos.client.logging.AbstractNacosLogging, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-client/1.4.2/nacos-client-1.4.2.jar!/com/alibaba/nacos/client/logging/AbstractNacosLogging.class
+
+The called method's class, com.alibaba.nacos.common.utils.StringUtils, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar!/com/alibaba/nacos/common/utils/StringUtils.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.common.utils.StringUtils: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes com.alibaba.nacos.client.logging.AbstractNacosLogging and com.alibaba.nacos.common.utils.StringUtils
+
+2024-08-08 22:58:40.122 [main] ERROR o.a.d.c.support.nacos.NacosDynamicConfiguration -  [DUBBO] com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+com.alibaba.nacos.api.exception.NacosException: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:46)
+	at com.alibaba.nacos.api.NacosFactory.createConfigService(NacosFactory.java:44)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildConfigService(NacosDynamicConfiguration.java:109)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:97)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:29)
+	at com.alibaba.nacos.client.logging.NacosLogging$NacosLoggingInstance.<clinit>(NacosLogging.java:49)
+	at com.alibaba.nacos.client.logging.NacosLogging.getInstance(NacosLogging.java:53)
+	at com.alibaba.nacos.client.utils.LogUtils.<clinit>(LogUtils.java:35)
+	at com.alibaba.nacos.client.config.NacosConfigService.<clinit>(NacosConfigService.java:57)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:41)
+	... 28 common frames omitted
+2024-08-08 22:58:40.167 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+
+The following method did not exist:
+
+    com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+
+The calling method's class, com.alibaba.nacos.client.logging.AbstractNacosLogging, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-client/1.4.2/nacos-client-1.4.2.jar!/com/alibaba/nacos/client/logging/AbstractNacosLogging.class
+
+The called method's class, com.alibaba.nacos.common.utils.StringUtils, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar!/com/alibaba/nacos/common/utils/StringUtils.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.common.utils.StringUtils: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes com.alibaba.nacos.client.logging.AbstractNacosLogging and com.alibaba.nacos.common.utils.StringUtils
+
+2024-08-08 23:12:09.095 [main] ERROR o.a.d.c.support.nacos.NacosDynamicConfiguration -  [DUBBO] com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z, dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+com.alibaba.nacos.api.exception.NacosException: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:46)
+	at com.alibaba.nacos.api.NacosFactory.createConfigService(NacosFactory.java:44)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildConfigService(NacosDynamicConfiguration.java:109)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:97)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.NoSuchMethodError: com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+	at com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:40)
+	at com.alibaba.nacos.client.logging.NacosLogging.<init>(NacosLogging.java:29)
+	at com.alibaba.nacos.client.logging.NacosLogging$NacosLoggingInstance.<clinit>(NacosLogging.java:49)
+	at com.alibaba.nacos.client.logging.NacosLogging.getInstance(NacosLogging.java:53)
+	at com.alibaba.nacos.client.utils.LogUtils.<clinit>(LogUtils.java:35)
+	at com.alibaba.nacos.client.config.NacosConfigService.<clinit>(NacosConfigService.java:57)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:41)
+	... 28 common frames omitted
+2024-08-08 23:12:09.140 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.alibaba.nacos.client.logging.AbstractNacosLogging.<clinit>(AbstractNacosLogging.java:40)
+
+The following method did not exist:
+
+    com.alibaba.nacos.common.utils.StringUtils.isBlank(Ljava/lang/String;)Z
+
+The calling method's class, com.alibaba.nacos.client.logging.AbstractNacosLogging, was loaded from the following location:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-client/1.4.2/nacos-client-1.4.2.jar!/com/alibaba/nacos/client/logging/AbstractNacosLogging.class
+
+The called method's class, com.alibaba.nacos.common.utils.StringUtils, is available from the following locations:
+
+    jar:file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar!/com/alibaba/nacos/common/utils/StringUtils.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.alibaba.nacos.common.utils.StringUtils: file:/Users/gaozhiwei/maven/mvnstudy/com/alibaba/nacos/nacos-common/2.2.2/nacos-common-2.2.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes com.alibaba.nacos.client.logging.AbstractNacosLogging and com.alibaba.nacos.common.utils.StringUtils
+
+2024-08-08 23:31:13.426 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: com/alibaba/nacos/api/PropertyKeyConst
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.setProperties(NacosDynamicConfiguration.java:186)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildNacosProperties(NacosDynamicConfiguration.java:166)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:96)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.PropertyKeyConst
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2024-08-08 23:38:20.719 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: com/alibaba/nacos/api/PropertyKeyConst
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.setProperties(NacosDynamicConfiguration.java:186)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildNacosProperties(NacosDynamicConfiguration.java:166)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:96)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.PropertyKeyConst
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2024-08-08 23:43:42.396 [main] ERROR o.a.d.c.support.nacos.NacosDynamicConfiguration -  [DUBBO] Failed to create nacos config service client. Reason: server status check failed., dubbo version: 3.2.10, current host: 192.168.124.8, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2024-08-08 23:43:42.533 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Failed to create nacos config service client. Reason: server status check failed.
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:871)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.startConfigCenter(DefaultApplicationDeployer.java:299)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:220)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:635)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:85)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.init(DubboConfigApplicationListener.java:68)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:580)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.notice.NoticeApplication.main(NoticeApplication.java:17)
+Caused by: java.lang.IllegalStateException: Failed to create nacos config service client. Reason: server status check failed.
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.buildConfigService(NacosDynamicConfiguration.java:147)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration.<init>(NacosDynamicConfiguration.java:97)
+	at org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory.createDynamicConfiguration(NacosDynamicConfigurationFactory.java:45)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.lambda$getDynamicConfiguration$0(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.common.utils.ConcurrentHashMapUtils.computeIfAbsent(ConcurrentHashMapUtils.java:42)
+	at org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:39)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.getDynamicConfiguration(DefaultApplicationDeployer.java:943)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.prepareEnvironment(DefaultApplicationDeployer.java:859)
+	... 19 common frames omitted

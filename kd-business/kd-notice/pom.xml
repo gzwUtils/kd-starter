@@ -18,6 +18,13 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-rpc</artifactId>
+            <version>1.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-api</artifactId>
@@ -45,12 +52,6 @@
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-datasource</artifactId>
-            <version>1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.action</groupId>
-            <artifactId>kd-rpc</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>

@@ -5,4 +5,6 @@ spring:
     import: classpath:datasource.yml,classpath:rpc.yml,classpath:cache.yml,classpath:sms.yml
 server:
   port: 8085
-
+logging:
+  file:
+    path: log/notice/

@@ -5,60 +5,127 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa899c9-736c-4611-86dc-0cd4eb852741" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kd-common/kd-thread-pool-starter/target/classes/org/action/KdThreadPoolAutoConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kdCade/NoticeKdCadeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kdCade/NoticeKdCadeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kdCade/NoticeKdCadeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kdCade/NoticeKdCadeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/resources/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-datasource/src/main/resources/datasource.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/target/classes/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-datasource/target/classes/datasource.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/NoticeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/entity/Notice$NoticeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/entity/Notice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/entity/TemplateInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/enums/NoticeState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/enums/NoticeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kd/mapper/NoticeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kd/mapper/TemplateMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kdCade/NoticeKdCadeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/service/NoticeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/service/TemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/utils/FreemarkerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/kd-notice-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/kd-notice-1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-api/target/kd-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/kd-base-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-cache/target/kd-cache-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-cache/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-cache/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-cache/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-cache/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-cache/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-config/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-config/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-config/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-config/target/classes/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-config/target/kd-config-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-config/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-config/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/target/kd-datasource-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-datasource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-es/target/kd-es-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-es/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-es/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-es/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-job/target/kd-job-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-job/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-job/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-job/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-job/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-job/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/kd-limiter-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-limiter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-lock/target/kd-lock-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-lock/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-lock/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-lock/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-lock/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-lock/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-mq/target/kd-mq-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-mq/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-mq/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-rpc/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/org/action/rpc/config/RpcConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/org/action/rpc/kdCade/KdCade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/org/action/rpc/kdCade/KdCadeAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/rpc.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/kd-thread-pool-starter-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kd-thread-pool-starter/target/kd-thread-pool-starter-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error-2024-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-05-31.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-06-01.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-07-20.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/info-2024-07-21.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/warn-2024-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/warn-2024-07-21.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/warn.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-07-21.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-07-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-07-31.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/error-2024-08-02.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-06-01.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-07-20.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-07-21.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-07-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-07-31.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-08-01.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info-2024-08-02.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-06-01.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-07-20.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-07-21.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-07-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-07-31.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-08-01.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn-2024-08-02.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/plat/warn.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/warn.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-sa-token/target/kd-sa-token-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-sa-token/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-sms/target/kd-sms-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-sms/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/kd-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/kd-gateway-1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/kd-platform-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/kd-platform-1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-platform/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-thread-pool-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/src/main/java/org/action/KdThreadPoolAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-thread-pool-starter/src/main/java/org/action/KdThreadPoolAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-thread-pool-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-thread-pool-starter/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/classes/org/action/KdThreadPoolAutoConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/kd-thread-pool-starter-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kd-thread-pool-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/plat/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/plat/warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +151,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/kd-business/kd-notice/src/main/resources/application.yml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/kd-platform/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -123,50 +191,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.SmsServiceImplTest.testSenMsg.executor": "Run",
-    "Maven.kd-config [clean].executor": "Run",
-    "Maven.kd-datasource [clean].executor": "Run",
-    "Maven.kd-gateway [clean].executor": "Run",
-    "Maven.kd-gateway [package].executor": "Run",
-    "Maven.kd-notice [clean].executor": "Run",
-    "Maven.kd-notice [package].executor": "Run",
-    "Maven.kd-platform [clean].executor": "Run",
-    "Maven.kd-platform [package].executor": "Run",
-    "Maven.kd-rpc [clean].executor": "Run",
-    "Maven.kd-starter [clean].executor": "Run",
-    "Maven.kd-starter [install].executor": "Run",
-    "Maven.kd-starter [package].executor": "Run",
-    "Maven.kd-starter [validate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.GateWayApplication.executor": "Run",
-    "Spring Boot.KdHandler.executor": "Debug",
-    "Spring Boot.NoticeApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/gaozhiwei/Downloads/kd-starter/kd-common/kd-rpc/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "spring.configuration.checksum": "99887797fb5c635eb6ff48fb5c56f79d",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.SmsServiceImplTest.testSenMsg.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-config [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-datasource [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-gateway [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-notice [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-notice [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-notice [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-platform [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-platform [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-rpc [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-rpc [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-rpc [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-rpc [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-starter [dependency:tree].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-starter [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-starter [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.kd-starter [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GateWayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.KdHandler.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NoticeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gaozhiwei/Downloads/kd-starter/kd-business/kd-notice/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;99887797fb5c635eb6ff48fb5c56f79d&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -175,13 +248,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/kd-platform/src/main/resources" />
       <recent name="$PROJECT_DIR$/kd-business/kd-notice/src/main/resources" />
+      <recent name="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources" />
+      <recent name="$PROJECT_DIR$/kd-platform/src/main/resources" />
       <recent name="$PROJECT_DIR$/kd-common/kd-config/src/main/resources" />
       <recent name="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/META-INF" />
-      <recent name="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kd-common" />
       <recent name="$PROJECT_DIR$/kd-thread-pool-starter/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -191,6 +265,11 @@
       <recent name="org.action.mapper" />
       <recent name="org.action.service" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn  dependency:tree" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -309,7 +388,29 @@
       <workItem from="1722671919186" duration="1811000" />
       <workItem from="1722674073136" duration="1900000" />
       <workItem from="1722676099875" duration="8953000" />
-      <workItem from="1723032119087" duration="452000" />
+      <workItem from="1723032119087" duration="1077000" />
+      <workItem from="1723033322606" duration="289000" />
+      <workItem from="1723033624246" duration="302000" />
+      <workItem from="1723033959143" duration="2590000" />
+      <workItem from="1723042567542" duration="267000" />
+      <workItem from="1723043248625" duration="4486000" />
+      <workItem from="1723118910393" duration="540000" />
+      <workItem from="1723120527582" duration="276000" />
+      <workItem from="1723120811580" duration="1141000" />
+      <workItem from="1723122135726" duration="1218000" />
+      <workItem from="1723123554206" duration="508000" />
+      <workItem from="1723124080776" duration="1765000" />
+      <workItem from="1723125912644" duration="783000" />
+      <workItem from="1723126712133" duration="757000" />
+      <workItem from="1723127502374" duration="326000" />
+      <workItem from="1723127845401" duration="1149000" />
+      <workItem from="1723129009937" duration="527000" />
+      <workItem from="1723129549770" duration="726000" />
+      <workItem from="1723130286725" duration="1227000" />
+      <workItem from="1723131562045" duration="1261000" />
+      <workItem from="1723132964496" duration="2416000" />
+      <workItem from="1723135721834" duration="859000" />
+      <workItem from="1723136594016" duration="676000" />
     </task>
     <servers />
   </component>
