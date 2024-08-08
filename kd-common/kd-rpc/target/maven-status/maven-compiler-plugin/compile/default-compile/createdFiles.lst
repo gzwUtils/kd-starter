@@ -1,0 +1,3 @@
+org/action/rpc/config/RpcConfiguration.class
+org/action/rpc/kdCade/KdCade.class
+org/action/rpc/kdCade/KdCadeAspect.class

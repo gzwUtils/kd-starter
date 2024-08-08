@@ -10,7 +10,7 @@ dubbo:
     username: nacos
     password: nacos
     parameters:
-      namespace: 57549437-036f-41dc-8013-73037dde5491
+      namespace: 1be1838f-f328-47bc-9ac5-ea31c20ea24f
       group: dubbo
   application:
     name: ${spring.application.name}
