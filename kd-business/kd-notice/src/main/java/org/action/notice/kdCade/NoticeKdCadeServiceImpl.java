@@ -26,6 +26,7 @@ import org.apache.dubbo.config.annotation.DubboService;
  * @description：
  * @since：2024/8/2 19:32
  */
+@SuppressWarnings("all")
 @DubboService(version = "1.0.0")
 public class NoticeKdCadeServiceImpl implements NoticeKdCadeService {
 
@@ -60,7 +61,7 @@ public class NoticeKdCadeServiceImpl implements NoticeKdCadeService {
         }
         String context = freemarkerUtils.freeMarkerRender(sendInput.getMessageParam().getVariables(), templateInfo.getTempContent(), templateInfo.getTempId());
 
-        Notice notice = noticeService.saveCaptcha(sendInput.getMessageParam().getReceiver(), context);
+        Notice notice = noticeService.saveCaptcha(sendInput.getMessageParam().getReceiver(), context,templateInfo.getTempName());
 
 
 

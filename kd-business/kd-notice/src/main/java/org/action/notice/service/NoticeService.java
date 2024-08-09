@@ -16,10 +16,9 @@ import org.springframework.stereotype.Service;
  * @description：
  * @since：2024/8/2 19:36
  */
+@SuppressWarnings("all")
 @Service
 public class NoticeService extends ServiceImpl<NoticeMapper, Notice> {
-
-    private static final String SMS_NOTICE_TITLE = "验证码";
 
     public Page<Notice> pageQueryForRetry(int currentPage, int pageSize) {
         Page<Notice> page = new Page<>(currentPage, pageSize);
@@ -32,10 +31,10 @@ public class NoticeService extends ServiceImpl<NoticeMapper, Notice> {
     }
 
 
-    public Notice saveCaptcha(String telephone, String captcha) {
+    public Notice saveCaptcha(String telephone, String context,String templateName) {
         Notice notice = Notice.builder()
-                .noticeTitle(SMS_NOTICE_TITLE)
-                .noticeContent(captcha)
+                .noticeTitle(templateName)
+                .noticeContent(context)
                 .noticeType(NoticeType.SMS)
                 .targetAddress(telephone)
                 .state(NoticeState.INIT)
