@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -15,6 +16,7 @@
         <module name="kd-api" />
         <module name="kd-gateway" />
         <module name="kd-platform" />
+        <module name="kd-web" />
         <module name="kd-config" />
         <module name="kd-es" />
         <module name="kd-lock" />
@@ -49,6 +51,7 @@
       <module name="kd-sms" options="-parameters" />
       <module name="kd-starter" options="" />
       <module name="kd-thread-pool-starter" options="-parameters" />
+      <module name="kd-web" options="-parameters" />
     </option>
   </component>
 </project>

@@ -20,7 +20,7 @@ public class BaseEntity implements Serializable {
      * 主键ID
      */
     @TableId(type = IdType.AUTO)
-    private int id;
+    private Integer id;
 
     /**
      * 创建时间

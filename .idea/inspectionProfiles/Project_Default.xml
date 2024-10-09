@@ -5,7 +5,7 @@
       <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,java.io.PrintStream,printf,javax.validation.Configuration,buildValidatorFactory" />
     </inspection_tool>
     <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="ADDITIONAL_TAGS" value="description：,since：${DATE},since：2024/4/24,since：2024/5/19,since：2024/5/30,since：2024/7/30,since：2023/7/15,since：2024/7/31,Date,since：2024/8/1,since：2024/8/2,since：2022/11/5,since：2023/5/24,since：2023/5/25,since：2024/8/3" />
+      <option name="ADDITIONAL_TAGS" value="description：,since：${DATE},since：2024/4/24,since：2024/5/19,since：2024/5/30,since：2024/7/30,since：2023/7/15,since：2024/7/31,Date,since：2024/8/1,since：2024/8/2,since：2022/11/5,since：2023/5/24,since：2023/5/25,since：2024/8/3,create" />
     </inspection_tool>
   </profile>
 </component>

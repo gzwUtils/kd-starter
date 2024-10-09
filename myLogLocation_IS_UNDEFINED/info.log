@@ -1,0 +1,6 @@
+2024-10-09 18:35:39.538 [main] INFO  o.a.d.s.b.c.event.WelcomeLogoApplicationListener -  [DUBBO] 
+
+ :: Dubbo (v3.2.2) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+, dubbo version: 3.2.2, current host: 192.168.31.84
+2024-10-09 18:35:39.595 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final

@@ -118,7 +118,7 @@ public class KdCadeAspect {
 
         if (response instanceof BaseResponse) {
             BaseResponse baseResponse = (BaseResponse) response;
-            if (!baseResponse.getSuccess()) {
+            if (Boolean.FALSE.equals(baseResponse.getSuccess())) {
                 stringBuilder.append(" , execute_failed");
             }
         }
@@ -133,7 +133,7 @@ public class KdCadeAspect {
      */
     private void enrichObject(Object response) {
         if (response instanceof BaseResponse) {
-            if (((BaseResponse) response).getSuccess()) {
+            if (Boolean.TRUE.equals(((BaseResponse) response).getSuccess())) {
                 //如果状态是成功的，需要将未设置的responseCode设置成SUCCESS
                 if (StringUtils.isEmpty(((BaseResponse) response).getCode())) {
                     ((BaseResponse) response).setCode(RepoErrorCode.SUCCESS.name());

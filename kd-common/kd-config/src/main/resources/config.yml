@@ -2,11 +2,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 123.249.77.250:8848
         username: nacos
         password: nacos
       config:
-        server-addr: 127.0.0.1:8848
+        server-addr: 123.249.77.250:8848
         username: nacos
         password: nacos
         file-extension: properties

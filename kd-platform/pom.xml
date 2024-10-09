@@ -82,6 +82,11 @@
             <version>1.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-web</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>

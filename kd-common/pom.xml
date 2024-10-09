@@ -26,6 +26,7 @@
         <module>kd-base</module>
         <module>kd-config</module>
         <module>kd-thread-pool-starter</module>
+        <module>kd-web</module>
     </modules>
 
     <properties>

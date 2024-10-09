@@ -9,10 +9,20 @@ import org.action.notice.resp.NoticeResponse;
  */
 public interface NoticeKdCadeService {
     /**
-     * 发送短信
+     * 发送验证码
+     *
+     * @param phone phone
+     * @return resp
+     */
+    NoticeResponse generateAndSendSmsCaptcha(String phone);
+
+
+
+    /**
+     * 发送模板消息
      *
      * @param sendInput phone
      * @return resp
      */
-    NoticeResponse generateAndSendSmsCaptcha(SendInput sendInput);
+    NoticeResponse generateModelContext(SendInput sendInput);
 }

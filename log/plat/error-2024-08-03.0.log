@@ -1,7 +1,7 @@
 2024-08-03 20:55:41.130 [http-nio-8093-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: org.action.exception.SystemException: 不允许重复发送通知
 org.action.exception.SystemException: 不允许重复发送通知
-	at org.action.notice.kdCade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
-	at org.action.notice.kdCade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:89)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:100)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:55)
@@ -44,8 +44,8 @@ org.action.exception.SystemException: 不允许重复发送通知
 ] with root cause
 java.lang.RuntimeException: org.action.exception.SystemException: 不允许重复发送通知
 org.action.exception.SystemException: 不允许重复发送通知
-	at org.action.notice.kdCade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
-	at org.action.notice.kdCade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:89)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:100)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:55)
@@ -105,8 +105,8 @@ org.action.exception.SystemException: 不允许重复发送通知
 	at java.lang.Thread.run(Thread.java:748)
 2024-08-03 21:37:51.989 [http-nio-8093-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: org.action.exception.SystemException: 不允许重复发送通知
 org.action.exception.SystemException: 不允许重复发送通知
-	at org.action.notice.kdCade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
-	at org.action.notice.kdCade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:89)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:100)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:55)
@@ -149,8 +149,8 @@ org.action.exception.SystemException: 不允许重复发送通知
 ] with root cause
 java.lang.RuntimeException: org.action.exception.SystemException: 不允许重复发送通知
 org.action.exception.SystemException: 不允许重复发送通知
-	at org.action.notice.kdCade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
-	at org.action.notice.kdCade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:89)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:100)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:55)
@@ -309,8 +309,8 @@ java.util.concurrent.TimeoutException: Timeout after 3000ms waiting for result.
 	at java.lang.Thread.run(Thread.java:748)
 2024-08-03 21:40:53.436 [http-nio-8093-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: org.action.exception.SystemException: 不允许重复发送通知
 org.action.exception.SystemException: 不允许重复发送通知
-	at org.action.notice.kdCade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
-	at org.action.notice.kdCade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:89)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:100)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:55)
@@ -353,8 +353,8 @@ org.action.exception.SystemException: 不允许重复发送通知
 ] with root cause
 java.lang.RuntimeException: org.action.exception.SystemException: 不允许重复发送通知
 org.action.exception.SystemException: 不允许重复发送通知
-	at org.action.notice.kdCade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
-	at org.action.notice.kdCade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:53)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:89)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:100)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:55)
@@ -414,8 +414,8 @@ org.action.exception.SystemException: 不允许重复发送通知
 	at java.lang.Thread.run(Thread.java:748)
 2024-08-03 21:44:14.573 [http-nio-8093-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at org.action.notice.kdCade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:56)
-	at org.action.notice.kdCade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImpl.generateAndSendSmsCaptcha(NoticeKdCadeServiceImpl.java:56)
+	at org.action.notice.kdcade.NoticeKdCadeServiceImplDubboWrap0.invokeMethod(NoticeKdCadeServiceImplDubboWrap0.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:89)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:100)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:55)

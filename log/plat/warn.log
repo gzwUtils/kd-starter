@@ -1,54 +1,257 @@
-2024-08-09 18:44:16.819 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[DEFAULT_GROUP]
-2024-08-09 18:44:16.832 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.properties] & group[DEFAULT_GROUP]
-2024-08-09 18:44:18.714 [main] WARN  o.a.d.c.s.b.f.a.ServiceAnnotationPostProcessor -  [DUBBO] No class annotated by Dubbo @Service was found under package [org.action], ignore re-scanned classes: 0, dubbo version: 3.2.2, current host: 192.168.124.8, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
-2024-08-09 18:44:20.972 [main] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.2, current host: 192.168.124.8, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
-2024-08-09 18:44:20.972 [main] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.2, current host: 192.168.124.8, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
-2024-08-09 18:44:25.770 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
-2024-08-09 18:44:25.830 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception; nested exception is org.springframework.cloud.configuration.CompatibilityNotMetException
-2024-08-09 18:44:31.857 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-08-09 18:44:31.858 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
-2024-08-09 18:44:31.963 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
-2024-08-09 18:44:31.963 [Thread-33] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
-2024-08-09 18:44:31.964 [Thread-33] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
-2024-08-09 18:44:31.964 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
-2024-08-09 18:47:13.098 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[DEFAULT_GROUP]
-2024-08-09 18:47:13.116 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.properties] & group[DEFAULT_GROUP]
-2024-08-09 18:47:14.792 [main] WARN  o.a.d.c.s.b.f.a.ServiceAnnotationPostProcessor -  [DUBBO] No class annotated by Dubbo @Service was found under package [org.action], ignore re-scanned classes: 0, dubbo version: 3.2.2, current host: 192.168.124.8, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
-2024-08-09 18:47:17.022 [main] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.2, current host: 192.168.124.8, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
-2024-08-09 18:47:17.023 [main] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.2, current host: 192.168.124.8, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
-2024-08-09 18:47:21.226 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
-2024-08-09 18:47:21.318 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception; nested exception is org.springframework.cloud.configuration.CompatibilityNotMetException
-2024-08-09 18:47:27.353 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-08-09 18:47:27.354 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
-2024-08-09 18:47:27.443 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
-2024-08-09 18:47:27.444 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
-2024-08-09 18:47:27.444 [Thread-3] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
-2024-08-09 18:54:17.583 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[DEFAULT_GROUP]
-2024-08-09 18:54:17.613 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.properties] & group[DEFAULT_GROUP]
-2024-08-09 18:54:19.484 [main] WARN  o.a.d.c.s.b.f.a.ServiceAnnotationPostProcessor -  [DUBBO] No class annotated by Dubbo @Service was found under package [org.action], ignore re-scanned classes: 0, dubbo version: 3.2.2, current host: 192.168.124.8, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
-2024-08-09 18:54:21.701 [main] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.2, current host: 192.168.124.8, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
-2024-08-09 18:54:21.702 [main] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.2, current host: 192.168.124.8, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
-2024-08-09 18:54:26.002 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
-2024-08-09 18:54:26.057 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception; nested exception is org.springframework.cloud.configuration.CompatibilityNotMetException: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@27244a88 description = 'Spring Boot [2.7.12] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [2.6.x] .
-You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
-If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
-If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
-2024-08-09 18:54:32.089 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-08-09 18:54:32.090 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
-2024-08-09 18:54:33.128 [Thread-32] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
-2024-08-09 18:54:33.128 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
-2024-08-09 18:54:33.129 [Thread-32] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
-2024-08-09 18:57:54.193 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[DEFAULT_GROUP]
-2024-08-09 18:57:54.200 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.properties] & group[DEFAULT_GROUP]
-2024-08-09 18:57:55.874 [main] WARN  o.a.d.c.s.b.f.a.ServiceAnnotationPostProcessor -  [DUBBO] No class annotated by Dubbo @Service was found under package [org.action], ignore re-scanned classes: 0, dubbo version: 3.2.2, current host: 192.168.124.8, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
-2024-08-09 18:57:58.106 [main] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.2, current host: 192.168.124.8, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
-2024-08-09 18:57:58.106 [main] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.2, current host: 192.168.124.8, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
-2024-08-09 18:58:02.291 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
-2024-08-09 18:58:03.302 [main] WARN  org.apache.dubbo.registry.nacos.NacosRegistry -  [DUBBO] Received empty url address list and empty protection is disabled, will clear current available addresses, dubbo version: 3.2.2, current host: 192.168.124.8, error code: 1-37. This may be caused by , go to https://dubbo.apache.org/faq/1/37 to find instructions. 
-2024-08-09 18:58:03.315 [main] WARN  org.apache.dubbo.registry.nacos.NacosRegistry -  [DUBBO] Received empty url address list and empty protection is disabled, will clear current available addresses, dubbo version: 3.2.2, current host: 192.168.124.8, error code: 1-37. This may be caused by , go to https://dubbo.apache.org/faq/1/37 to find instructions. 
-2024-08-09 18:58:03.840 [main] WARN  org.apache.dubbo.config.ServiceConfig -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 3.2.2, current host: 192.168.124.8, error code: 5-8. This may be caused by , go to https://dubbo.apache.org/faq/5/8 to find instructions. 
-2024-08-09 18:58:04.181 [main] WARN  org.apache.dubbo.registry.nacos.NacosRegistry -  [DUBBO] Received empty url address list and empty protection is disabled, will clear current available addresses, dubbo version: 3.2.2, current host: 192.168.124.8, error code: 1-37. This may be caused by , go to https://dubbo.apache.org/faq/1/37 to find instructions. 
-2024-08-09 18:59:06.502 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
-2024-08-09 18:59:06.502 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
-2024-08-09 18:59:06.503 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
-2024-08-09 18:59:06.503 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-10-09 09:21:48.776 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[kd-starter]
+2024-10-09 09:21:48.802 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.yaml] & group[kd-starter]
+2024-10-09 09:21:51.172 [main] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [cn.dev33.satoken.spring.SaTokenContextRegister] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:669)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:661)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1302)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:864)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:852)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:839)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.KdHandler.main(KdHandler.java:17)
+Caused by: java.lang.NoClassDefFoundError: jakarta/servlet/Filter
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: jakarta.servlet.Filter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 common frames omitted
+2024-10-09 09:21:51.174 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-10-09 09:24:23.071 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[kd-starter]
+2024-10-09 09:24:23.079 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.yaml] & group[kd-starter]
+2024-10-09 09:24:23.929 [main] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [cn.dev33.satoken.spring.SaTokenContextRegister] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:669)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:661)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1302)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:864)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:852)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:839)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.KdHandler.main(KdHandler.java:17)
+Caused by: java.lang.NoClassDefFoundError: jakarta/servlet/Filter
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: jakarta.servlet.Filter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 common frames omitted
+2024-10-09 09:24:23.930 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-10-09 09:27:41.485 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[kd-starter]
+2024-10-09 09:27:41.495 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.yaml] & group[kd-starter]
+2024-10-09 09:27:42.353 [main] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [cn.dev33.satoken.spring.SaTokenContextRegister] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:669)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:661)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1302)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:864)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:852)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:839)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.KdHandler.main(KdHandler.java:17)
+Caused by: java.lang.NoClassDefFoundError: jakarta/servlet/Filter
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: jakarta.servlet.Filter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 common frames omitted
+2024-10-09 09:27:42.355 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-10-09 09:29:10.433 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[DEFAULT_GROUP]
+2024-10-09 09:29:10.442 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.properties] & group[DEFAULT_GROUP]
+2024-10-09 09:29:11.362 [main] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [cn.dev33.satoken.spring.SaTokenContextRegister] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:669)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:661)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1302)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:864)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:852)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:839)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.KdHandler.main(KdHandler.java:17)
+Caused by: java.lang.NoClassDefFoundError: jakarta/servlet/Filter
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: jakarta.servlet.Filter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 common frames omitted
+2024-10-09 09:29:11.363 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-10-09 09:29:11.363 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-10-09 18:35:40.247 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform] & group[DEFAULT_GROUP]
+2024-10-09 18:35:40.260 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[kd-platform.properties] & group[DEFAULT_GROUP]
+2024-10-09 18:35:41.307 [main] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [cn.dev33.satoken.spring.SaTokenContextRegister] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:669)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:661)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1302)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:864)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:852)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:839)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.action.KdHandler.main(KdHandler.java:17)
+Caused by: java.lang.NoClassDefFoundError: jakarta/servlet/Filter
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: jakarta.servlet.Filter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 common frames omitted
+2024-10-09 18:35:41.308 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-10-09 18:35:41.308 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end

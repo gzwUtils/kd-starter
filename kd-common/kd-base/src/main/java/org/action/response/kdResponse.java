@@ -15,7 +15,7 @@ public class kdResponse<T> extends BaseResponse {
 
     private static final long serialVersionUID = 1L;
 
-    private T data;
+    private transient T data;
 
     public static <T> kdResponse<T> ok(T data) {
         kdResponse<T> kdResponse = new kdResponse<>();
