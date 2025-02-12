@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>kd-notice</module>
+        <module>kd-user</module>
     </modules>
 
     <properties>

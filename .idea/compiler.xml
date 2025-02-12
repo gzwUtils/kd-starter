@@ -17,6 +17,7 @@
         <module name="kd-gateway" />
         <module name="kd-platform" />
         <module name="kd-web" />
+        <module name="kd-user" />
         <module name="kd-config" />
         <module name="kd-es" />
         <module name="kd-lock" />
@@ -51,6 +52,7 @@
       <module name="kd-sms" options="-parameters" />
       <module name="kd-starter" options="" />
       <module name="kd-thread-pool-starter" options="-parameters" />
+      <module name="kd-user" options="-parameters" />
       <module name="kd-web" options="-parameters" />
     </option>
   </component>

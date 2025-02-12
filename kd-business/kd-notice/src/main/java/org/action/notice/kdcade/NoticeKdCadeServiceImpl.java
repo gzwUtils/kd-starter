@@ -26,7 +26,7 @@ import org.action.notice.service.TemplateService;
 import org.action.notice.utils.FreemarkerUtils;
 import org.action.rpc.kdCade.KdCade;
 import org.apache.dubbo.config.annotation.DubboService;
-import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
 /**
  * @author gzw
@@ -52,7 +52,7 @@ public class NoticeKdCadeServiceImpl implements NoticeKdCadeService {
     private FreemarkerUtils freemarkerUtils;
 
     @Resource
-    private RedisTemplate redisTemplate;
+    private StringRedisTemplate redisTemplate;
 
     @Override
     public NoticeResponse generateAndSendSmsCaptcha(String telephone) {

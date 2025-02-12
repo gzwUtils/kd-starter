@@ -24,6 +24,18 @@ public enum RepoErrorCode implements ErrorCode {
 
 
     /**
+     * 数据库插入失败
+     */
+    INSERT_FAILED("INSERT_FAILED", "数据库插入失败"),
+
+    /**
+     * 数据库更新失败
+     */
+    UPDATE_FAILED("UPDATE_FAILED", "数据库更新失败"),
+
+
+
+    /**
      * 重复请求
      */
     DUPLICATED("DUPLICATED", "重复请求"),
