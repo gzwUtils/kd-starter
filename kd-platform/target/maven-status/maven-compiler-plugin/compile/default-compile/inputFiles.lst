@@ -1,0 +1,12 @@
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/thread/ThreadTask.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/param/RegisterParam.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/exception/PlatException.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/param/LoginParam.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/exception/AuthException.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/vo/LoginVO.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/constant/Constant.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/KdHandler.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/controller/KdController.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/exception/PlatErrorCode.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/enums/AuthErrorCode.java
+/Users/gaozhiwei/Downloads/kd-starter/kd-platform/src/main/java/org/action/controller/TokenController.java

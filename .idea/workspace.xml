@@ -4,71 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfa899c9-736c-4611-86dc-0cd4eb852741" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/KdUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/common/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/common/entity/UserOperateStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/common/entity/convertor/UserConvertor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/common/enums/UserErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/common/interceptor/SensitiveResponseBodyAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/common/util/AesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/exception/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/facade/UserFacadeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/facade/service/UserOperateStreamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/facade/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/mapper/AesEncryptTypeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/java/org/action/user/mapper/UserOperateStreamMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/enums/UserOperateTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/enums/UserPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/enums/UserStateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/enums/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/UserAuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/UserModifyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/UserPageQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/UserQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/UserRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/condition/UserIdQueryCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/condition/UserPhoneAndPasswordQueryCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/condition/UserPhoneQueryCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/req/condition/UserQueryCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/resp/UserOperatorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/resp/UserQueryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/resp/data/BasicUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/resp/data/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/service/UserFacadeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-api/src/main/java/org/action/user/service/UserManageFacadeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/validator/IsMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/validator/MobileValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/TokenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/enums/AuthErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/exception/AuthException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/param/LoginParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/param/RegisterParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/vo/LoginVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kdcade/NoticeKdCadeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/src/main/java/org/action/notice/kdcade/NoticeKdCadeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kdCade/NoticeKdCadeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-notice/target/classes/org/action/notice/kdCade/NoticeKdCadeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/enums/RepoErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/src/main/java/org/action/enums/RepoErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/RepoErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-base/target/classes/org/action/enums/RepoErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-config/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-config/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-config/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-config/target/classes/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-rpc/src/main/resources/rpc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/rpc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kd-common/kd-rpc/target/classes/rpc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/KdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/src/main/java/org/action/controller/KdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kd-platform/target/classes/org/action/controller/KdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/kd-platform/target/classes/org/action/controller/KdController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/notice/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/notice/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/notice/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/notice/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/notice/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/notice/warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myLogLocation_IS_UNDEFINED/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/kd-business/kd-user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dfa899c9-736c-4611-86dc-0cd4eb852741" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +119,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "99887797fb5c635eb6ff48fb5c56f79d",
     "vue.rearranger.settings.migration": "true"
   }
@@ -381,7 +317,7 @@
       <workItem from="1728352708690" duration="17524000" />
       <workItem from="1734526026931" duration="3896000" />
       <workItem from="1737807174867" duration="423000" />
-      <workItem from="1739018421689" duration="17948000" />
+      <workItem from="1739018421689" duration="19242000" />
     </task>
     <servers />
   </component>
