@@ -113,12 +113,6 @@
             <version>1.3.4</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.github.houbb</groupId>
-            <artifactId>sensitive-core</artifactId>
-            <version>1.7.0</version>
-        </dependency>
-
     </dependencies>
 
     <build>
