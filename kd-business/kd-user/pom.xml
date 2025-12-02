@@ -11,13 +11,15 @@
 
     <artifactId>kd-user</artifactId>
 
+    <version>1.0</version>
+    <description>用户模块</description>
+
     <properties>
         <application.name>kd-user</application.name>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 
     <dependencies>
         <dependency>
@@ -28,43 +30,51 @@
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-base</artifactId>
-            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-limiter</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-config</artifactId>
-            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-file</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-lock</artifactId>
-            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-api</artifactId>
-            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-datasource</artifactId>
-            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-rpc</artifactId>
-            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-skywalking</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-web</artifactId>
-            <version>1.0</version>
         </dependency>
 
         <dependency>

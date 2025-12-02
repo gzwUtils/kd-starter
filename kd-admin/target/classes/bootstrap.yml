@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: kd-admin
+  config:
+    import: classpath:base.yml,classpath:config.yml   #

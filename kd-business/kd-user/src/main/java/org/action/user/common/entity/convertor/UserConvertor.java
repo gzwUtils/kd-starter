@@ -1,9 +1,10 @@
 package org.action.user.common.entity.convertor;
 
 import java.util.List;
+
+import org.action.api.user.resp.data.BasicUserInfo;
+import org.action.api.user.resp.data.UserInfo;
 import org.action.user.common.entity.User;
-import org.action.user.resp.data.BasicUserInfo;
-import org.action.user.resp.data.UserInfo;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.NullValueCheckStrategy;
@@ -21,17 +22,17 @@ public interface UserConvertor {
     /**
      * 转换为vo
      *
-     * @param request
-     * @return
+     * @param request req
+     * @return user
      */
     @Mapping(target = "userId", source = "request.id")
-    @Mapping(target = "createTime", source = "request.gmtCreate")
+    @Mapping(target = "createTime", source = "request.createTime")
     public UserInfo mapToVo(User request);
 
     /**
      * 转换为简单的VO
-     * @param request
-     * @return
+     * @param request req
+     * @return basic
      */
     @Mapping(target = "userId", source = "request.id")
     public BasicUserInfo mapToBasicVo(User request);
@@ -39,8 +40,8 @@ public interface UserConvertor {
     /**
      * 转换为实体
      *
-     * @param request
-     * @return
+     * @param request req
+     * @return user
      */
     @Mapping(target = "id", source = "request.userId")
     public User mapToEntity(UserInfo request);
@@ -48,8 +49,8 @@ public interface UserConvertor {
     /**
      * 转换为VO
      *
-     * @param request
-     * @return
+     * @param request req
+     * @return list
      */
     @Mapping(target = "userId", source = "request.id")
     public List<UserInfo> mapToVo(List<User> request);

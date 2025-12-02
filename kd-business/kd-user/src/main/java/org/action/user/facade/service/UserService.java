@@ -13,13 +13,15 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
-import org.action.DistributeLock;
-import org.action.exception.BizException;
+
+import org.action.api.user.enums.UserOperateTypeEnum;
+import org.action.api.user.resp.UserOperatorResponse;
+import org.action.lock.DistributeLock;
+import org.action.base.exception.BizException;
 import org.action.user.common.entity.User;
 import org.action.user.common.enums.UserErrorCode;
 import static org.action.user.common.enums.UserErrorCode.DUPLICATE_TELEPHONE_NUMBER;
 import org.action.user.mapper.UserMapper;
-import org.action.user.resp.UserOperatorResponse;
 import org.apache.commons.lang.StringUtils;
 import org.redisson.api.RBloomFilter;
 import org.redisson.api.RLock;
@@ -28,8 +30,7 @@ import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.action.user.enums.UserOperateTypeEnum;
-import org.action.enums.RepoErrorCode;
+import org.action.base.enums.RepoErrorCode;
 import  org.action.user.exception.UserException;
 
 /**

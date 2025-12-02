@@ -1,0 +1,21 @@
+package org.action.base.config;
+
+
+import org.action.base.utils.SpringContextHolder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+
+/**
+ * @author gzw
+ * 通用模块的配置类
+ */
+
+@Configuration
+public class BaseConfiguration {
+
+    @Bean
+    public SpringContextHolder springContextHolder() {
+        return new SpringContextHolder();
+    }
+}

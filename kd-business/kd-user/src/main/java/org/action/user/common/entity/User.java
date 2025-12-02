@@ -6,9 +6,9 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import java.util.Date;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.action.entity.BaseEntity;
-import org.action.user.enums.UserRole;
-import org.action.user.enums.UserStateEnum;
+import org.action.api.user.enums.UserRole;
+import org.action.api.user.enums.UserStateEnum;
+import org.action.datasource.entity.BaseEntity;
 import org.action.user.mapper.AesEncryptTypeHandler;
 
 /**

@@ -1,0 +1,37 @@
+package org.action.base.response;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+import java.io.Serial;
+
+/**
+ * @author gzw
+ * @description：
+ * @since：2024/7/31 00:11
+ */
+@SuppressWarnings("unused")
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class kdResponse<T> extends BaseResponse {
+
+    @Serial
+    private static final long serialVersionUID = 1L;
+
+    private transient T data;
+
+    public static <T> kdResponse<T> ok(T data) {
+        kdResponse<T> kdResponse = new kdResponse<>();
+        kdResponse.setData(data);
+        kdResponse.setSuccess(true);
+        return kdResponse;
+    }
+
+    public static <T> kdResponse<T> fail(String errorMessage,String errorCode) {
+        kdResponse<T> kdResponse = new kdResponse<>();
+        kdResponse.setSuccess(false);
+        kdResponse.setMsg(errorMessage);
+        kdResponse.setCode(errorCode);
+        return kdResponse;
+    }
+}

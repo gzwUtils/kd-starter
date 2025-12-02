@@ -1,7 +1,7 @@
 package org.action.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 import org.action.user.common.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 

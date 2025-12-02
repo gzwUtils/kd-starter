@@ -1,8 +1,8 @@
 package org.action.web.vo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.action.enums.RepoErrorCode;
-import org.action.response.kdResponse;
+import org.action.base.enums.RepoErrorCode;
+import org.action.base.response.kdResponse;
 
 /**
  * @author gzw

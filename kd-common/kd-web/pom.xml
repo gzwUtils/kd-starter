@@ -13,44 +13,36 @@
     <description>web 组件</description>
     <version>1.0</version>
 
+
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
     <dependencies>
+
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-base</artifactId>
-            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-sa-token</artifactId>
-            <version>1.0</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-cache</artifactId>
-            <version>1.0</version>
         </dependency>
 
-
+        <!--    Spring Boot Web   -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.auth0</groupId>
-            <artifactId>java-jwt</artifactId>
-            <version>3.10.3</version>
-        </dependency>
     </dependencies>
 
 </project>

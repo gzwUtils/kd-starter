@@ -1,0 +1,38 @@
+# 这是项目的需要改动的所有配置的地址的汇总，需要改哪个中间件的地址，在本文件中修改即可！
+kd:
+    nacos:
+      server:
+        url: 127.0.0.1:8848
+    mysql:
+      url: jdbc:mysql://192.168.0.1:3306/kd # kd.mysql.url - MySQL 的地址+数据库配置 #首次启动前务必修改成你自己的
+      username: root # kd.mysql.username - MySQL 的用户名 #首次启动前务必修改成你自己的
+      password: 'gzw941120' # kd.mysql.password - MySQL 的密码 #首次启动前务必修改成你自己的
+    redis:
+      url: 127.0.0.1  # kd.redis.url - Redis 的地址 #首次启动前务必修改成你自己的
+      port: 6379  # kd.redis.port - Redis 的端口号 #首次启动前务必修改成你自己的
+      password:  # kd.redis.password - Redis 的密码 #首次启动前务必修改成你自己的
+    elasticsearch:
+      enable: false # kd.elasticsearch.enable #如果你要使用es(没有启动一键mock)，这里需要改成true
+      url: 127.0.0.1:9200 # kd.elasticsearch.url - ElasticSearch 的地址+端口号 ##如果你要使用es(没有启动一键mock)，这里需要改成true
+      username: elastic # kd.elasticsearch.username - ElasticSearch 的用户名 ##如果你要使用es(没有启动一键mock)，这里需要改成true
+      password: 123456  # kd.elasticsearch.password - ElasticSearch 的密码 ##如果你要使用es(没有启动一键mock)，这里需要改成true
+    xxl-job:
+      url: 127.0.0.1:23333  # kd.xxl-job.url - XXL-JOB 的地址 # 如果你要用他，这里需要改成你自己的
+      appName: xxl-job-executor  # kd.xxl-job.appName - 需要和你在xxl-job上创建的执行器名字保持一致，这里需要改成你自己的
+      accessToken: default_token # kd.xxl-job.accessToken - 需要和你在xxl-job上创建的token保持一致，这里需要改成你自己的
+    sentinel:
+      url: 127.0.0.1:8099 # kd.sentinel.url - Sentinel 的地址+端口号 # 如果用了sentinel 这里需要改成你自己的sentinel的控制台地址
+      port: 8098 # kd.sentinel.port - Sentinel 端口号 # 如果用了sentinel 这里需要改成你自己的sentinel的端口号
+      nacos:
+        data-id: kd-gateway-sentinel # kd.sentinel.nacos.data-id - Sentinel配置保存的 nacos 的 data-id # 如果用了sentinel 这里需要改成你自己的 在nacos上定义的data-id
+    rocketmq:
+      url: 127.0.0.1:9876 # kd.rocketmq.url - RocketMQ 的地址+端口号 # 如果你要用RocketMQ，这里需要改成你自己的
+    dubbo:
+      nacos:
+        namespace: aa1c1c78-52b1-4ea7-b8fb-c50075b2f26d  # kd.dubbo.nacos.namespace - 自己到nacos上创建一个给dubbo用的namespce，然后和这里保持一致，首次启动前务必修改成你自己的 #首次启动前务必修改成你自己的
+        group: dubbo1  # kd.dubbo.nacos.group - 自己到nacos上创建一个给dubbo用的 group，然后和这里保持一致，首次启动前务必修改成你自己的 #首次启动前务必修改成你自己的
+    seata:
+      nacos:
+        data-id: seataServer.properties # kd.seata.nacos.data-id - Seata 对应的Nacos 保存配置的 data-id #首次启动前务必修改成你自己的
+        group: seata # kd.seata.nacos.group - Seata 对应的Nacos 保存配置的 data-id #首次启动前务必修改成你自己的
+        namespace: 7ebdfb9b-cd9d-4a5e-8969-1ada0bb9ba04 # kd.seata.nacos.namespace - Seata 对应的Nacos 保存配置的 namespace #首次启动前务必修改成你自己的

@@ -1,7 +1,8 @@
 package org.action.user.common.interceptor;
 import com.github.houbb.sensitive.core.api.SensitiveUtil;
 import java.util.Collection;
-import org.action.user.resp.data.UserInfo;
+
+import org.action.api.user.resp.data.UserInfo;
 import org.action.web.vo.Result;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.core.MethodParameter;

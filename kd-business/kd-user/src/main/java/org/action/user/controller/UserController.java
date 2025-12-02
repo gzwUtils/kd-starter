@@ -2,13 +2,14 @@ package org.action.user.controller;
 
 import cn.dev33.satoken.stp.StpUtil;
 import javax.annotation.Resource;
+
+import org.action.api.user.resp.data.BasicUserInfo;
+import org.action.api.user.resp.data.UserInfo;
 import org.action.user.common.entity.User;
 import org.action.user.common.entity.convertor.UserConvertor;
 import static org.action.user.common.enums.UserErrorCode.USER_NOT_EXIST;
 import org.action.user.exception.UserException;
 import org.action.user.facade.service.UserService;
-import org.action.user.resp.data.BasicUserInfo;
-import org.action.user.resp.data.UserInfo;
 import org.action.web.vo.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

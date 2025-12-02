@@ -6,15 +6,19 @@ package org.action.web.constant;
  */
 public class Constant {
 
+
+    private Constant() {}
+
     /**
      * 秘钥
      */
 
-    public static final String TOKEN_MY = "ajeEd3TM4S49ZGbGgExng";
+    public static final String TOKEN_MY = "token_kd_o12tn_0";
 
 
     public static final String TOKEN_HEADER_KEY = "Authorization";
 
-    public static final String TOKEN_HEADER_VALUE_PREFIX = "Bearer ";
+
+    public static final String TOKEN_HEADER_IS_STRESS = "isStress ";
 
 }

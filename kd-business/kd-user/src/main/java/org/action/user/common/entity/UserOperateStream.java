@@ -3,7 +3,7 @@ package org.action.user.common.entity;
 import java.util.Date;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.action.entity.BaseEntity;
+import org.action.datasource.entity.BaseEntity;
 
 /**
  * @author gzw

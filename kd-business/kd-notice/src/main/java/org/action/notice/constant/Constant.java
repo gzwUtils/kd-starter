@@ -6,6 +6,9 @@ package org.action.notice.constant;
  */
 public class Constant {
 
+    private Constant() {
+    }
+
 
     /**
      * 默认验证码模板 id、名称、变量

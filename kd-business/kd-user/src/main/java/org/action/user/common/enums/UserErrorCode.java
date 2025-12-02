@@ -1,7 +1,7 @@
 package org.action.user.common.enums;
 
 import lombok.Getter;
-import org.action.enums.ErrorCode;
+import org.action.base.enums.ErrorCode;
 
 /**
  * @author gzw

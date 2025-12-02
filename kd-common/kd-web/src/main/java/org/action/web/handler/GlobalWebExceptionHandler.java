@@ -1,14 +1,14 @@
 package org.action.web.handler;
 
 import lombok.extern.slf4j.Slf4j;
-import org.action.exception.BizException;
-import org.action.exception.SystemException;
+import org.action.base.exception.BizException;
+import org.action.base.exception.SystemException;
 import org.action.web.vo.Result;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import static org.action.enums.RepoErrorCode.PARAM_VALID_ERROR;
+import static org.action.base.enums.RepoErrorCode.PARAM_VALID_ERROR;
 
 /**
  * @author gzw

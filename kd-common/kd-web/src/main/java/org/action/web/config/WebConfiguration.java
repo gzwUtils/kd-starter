@@ -3,6 +3,7 @@ package org.action.web.config;
 
 import org.action.web.filter.TokenFilter;
 import org.action.web.handler.GlobalWebExceptionHandler;
+import org.redisson.api.RedissonClient;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
@@ -30,11 +31,13 @@ public class WebConfiguration implements WebMvcConfigurer {
      * @return bean
      */
     @Bean
-    public FilterRegistrationBean<TokenFilter> tokenFilter() {
+    public FilterRegistrationBean<TokenFilter> tokenFilter(RedissonClient redissonClient) {
         FilterRegistrationBean<TokenFilter> registrationBean = new FilterRegistrationBean<>();
-        registrationBean.setFilter(new TokenFilter());
-        registrationBean.addUrlPatterns("/*");
+
+        registrationBean.setFilter(new TokenFilter(redissonClient));
+        registrationBean.addUrlPatterns("/**");
         registrationBean.setOrder(10);
+
         return registrationBean;
     }
 

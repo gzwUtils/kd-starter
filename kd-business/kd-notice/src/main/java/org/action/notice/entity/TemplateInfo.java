@@ -1,10 +1,11 @@
 package org.action.notice.entity;
 
+import java.io.Serial;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-import org.action.entity.BaseEntity;
+import org.action.datasource.entity.BaseEntity;
 
 /**
  * @author gzw
@@ -17,6 +18,7 @@ import org.action.entity.BaseEntity;
 @Data
 public class TemplateInfo extends BaseEntity implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
     /**
      * 模版id

@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: ${kd.sentinel.url}
+      datasource:
+        flow:
+          nacos:
+            server-addr: ${kd.nacos.server.url}
+            data-id: business-flow-rules
+            group-id: SENTINEL_GROUP
+            rule-type: FLOW
+        param-flow:
+          nacos:
+            server-addr: ${kd.nacos.server.url}
+            data-id: business-param-flow-rules
+            group-id: SENTINEL_GROUP
+            rule-type: PARAM_FLOW

@@ -3,9 +3,10 @@ package org.action.user.facade.service;
 import com.alibaba.fastjson2.JSON;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import java.util.Date;
+
+import org.action.api.user.enums.UserOperateTypeEnum;
 import org.action.user.common.entity.User;
 import org.action.user.common.entity.UserOperateStream;
-import org.action.user.enums.UserOperateTypeEnum;
 import org.action.user.mapper.UserOperateStreamMapper;
 import org.springframework.stereotype.Service;
 

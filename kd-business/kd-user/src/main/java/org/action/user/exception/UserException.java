@@ -1,7 +1,7 @@
 package org.action.user.exception;
 
-import org.action.enums.ErrorCode;
-import org.action.exception.BizException;
+import org.action.base.enums.ErrorCode;
+import org.action.base.exception.BizException;
 
 /**
  * @author gzw

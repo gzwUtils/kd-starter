@@ -1,17 +1,19 @@
 package org.action.user.facade;
 
 import javax.annotation.Resource;
+
+import org.action.api.user.req.UserQueryRequest;
+import org.action.api.user.req.UserRegisterRequest;
+import org.action.api.user.req.condition.UserIdQueryCondition;
+import org.action.api.user.req.condition.UserPhoneQueryCondition;
+import org.action.api.user.resp.UserOperatorResponse;
+import org.action.api.user.resp.UserQueryResponse;
+import org.action.api.user.resp.data.UserInfo;
+import org.action.api.user.service.UserFacadeService;
+import org.action.rpc.kdCade.KdCade;
 import org.action.user.common.entity.User;
 import org.action.user.common.entity.convertor.UserConvertor;
 import org.action.user.facade.service.UserService;
-import org.action.user.req.UserQueryRequest;
-import org.action.user.req.UserRegisterRequest;
-import org.action.user.req.condition.UserIdQueryCondition;
-import org.action.user.req.condition.UserPhoneQueryCondition;
-import org.action.user.resp.UserOperatorResponse;
-import org.action.user.resp.UserQueryResponse;
-import org.action.user.resp.data.UserInfo;
-import org.action.user.service.UserFacadeService;
 import org.apache.dubbo.config.annotation.DubboService;
 
 /**
@@ -27,6 +29,7 @@ public class UserFacadeServiceImpl implements UserFacadeService {
     private UserService userService;
 
     @Override
+    @KdCade
     public UserQueryResponse<UserInfo> query(UserQueryRequest userQueryRequest) {
         //使用switch表达式精简代码，如果这里编译不过，参考我的文档调整IDEA的JDK版本
         //文档地址：https://thoughts.aliyun.com/workspaces/6655879cf459b7001ba42f1b/docs/6673f26c5e11940001c810fb#667971268a5c151234adcf92
