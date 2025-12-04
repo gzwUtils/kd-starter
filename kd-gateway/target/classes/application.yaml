@@ -1,29 +1,40 @@
-server:
-  port: 8094
 spring:
-  cloud:
-    gateway:
-      enabled: true
-      routes:
-      - id: kd-server
-        uri: http://127.0.0.1:8092
-        predicates:
-        - Path=/kd-server/**
-        filters:
-          - StripPrefix= 1
   application:
     name: kd-gateway
-# id 路由唯一ID 项目名称即可
-#uri 路由服务访问地址
-# predicates 路由断言
-# filters 过滤规则    StripPrefix= 1 代表将地址中/后的第一个截取，所以kd-server就截取掉了
-logging:
-  file:
-    path: log/gateway/
-
-
-
-
-
-
-
+  config:
+    import: classpath:base.yml,classpath:cache.yml,classpath:config.yml
+  cloud:
+    sentinel:
+      transport:
+        dashboard: ${kd.sentinel.url}
+      datasource:
+        flow:
+          nacos:
+            server-addr: ${kd.nacos.server.url}
+            data-id: gateway-flow-rules
+            group-id: SENTINEL_GROUP
+            rule-type: GW_FLOW
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin, RETAIN_UNIQUE
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedHeaders: '*'
+            allowedMethods: '*'
+            allowedOrigins: '*'
+      routes:
+        - id: kd-auth
+          uri: lb://kd-auth
+          predicates:
+            - Path=/auth/**,/token/**
+        - id: kd-business
+          uri: lb://kd-business
+          predicates:
+            - Path=/user/**
+        - id: kd-admin
+          uri: lb://kd-admin
+          predicates:
+            - Path=/admin/**
+server:
+  port: 8081

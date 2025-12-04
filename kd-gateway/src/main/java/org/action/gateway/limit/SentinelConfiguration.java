@@ -12,6 +12,7 @@ public class SentinelConfiguration {
 
     @PostConstruct
     public void initGatewayBlockHandler() {
-        GatewayCallbackManager.setBlockHandler((serverWebExchange, ex) -> ServerResponse.ok().body(Mono.just("限流啦,请求太频繁"), String.class));
+        GatewayCallbackManager.setBlockHandler((serverWebExchange, ex) ->
+                ServerResponse.ok().body(Mono.just("限流啦,请求太频繁"), String.class));
     }
 }

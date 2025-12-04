@@ -19,6 +19,12 @@ public enum UserStateEnum {
     /**
      * 冻结
      */
-    FROZEN;
+    FROZEN,
+
+    /**
+     * 激活
+     */
+
+    ACTIVE
 
 }

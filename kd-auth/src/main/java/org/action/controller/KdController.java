@@ -36,9 +36,8 @@ import org.springframework.web.bind.annotation.*;
  * @description： thread
  * @since：2024/4/24 02:23
  */
-
 @RestController
-@RequestMapping("/thr")
+@RequestMapping("/auth")
 public class KdController {
 
     @Resource
@@ -64,6 +63,13 @@ public class KdController {
     public Result<Boolean> sendCaptcha(@IsMobile String telephone) {
         NoticeResponse noticeResponse = noticeKdCadeService.generateAndSendSmsCaptcha(telephone);
         return Result.success(noticeResponse.getSuccess());
+    }
+
+
+    @GetMapping("/thr")
+    public Result<String> thr() {
+         threadTask.send();
+        return Result.success();
     }
 
     @PostMapping("/register")
