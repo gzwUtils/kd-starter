@@ -2,11 +2,8 @@ package org.action.controller;
 
 import cn.dev33.satoken.stp.SaLoginModel;
 import cn.dev33.satoken.stp.StpUtil;
-
 import javax.annotation.Resource;
-
 import static org.action.enums.AuthErrorCode.VERIFICATION_CODE_WRONG;
-
 import jakarta.validation.Valid;
 import org.action.api.notice.service.NoticeKdCadeService;
 import org.action.api.user.req.UserQueryRequest;
@@ -17,9 +14,7 @@ import org.action.api.user.resp.data.UserInfo;
 import org.action.api.user.service.UserFacadeService;
 import org.action.base.validator.IsMobile;
 import org.action.exception.AuthException;
-
 import static org.action.api.notice.constant.NoticeConstant.CAPTCHA_KEY_PREFIX;
-
 import org.action.api.notice.resp.NoticeResponse;
 import org.action.param.LoginParam;
 import org.action.param.RegisterParam;
@@ -28,7 +23,7 @@ import org.action.vo.LoginVO;
 import org.action.web.vo.Result;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.dubbo.config.annotation.DubboReference;
-import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -44,7 +39,7 @@ public class KdController {
     private ThreadTask threadTask;
 
     @Resource
-    private RedisTemplate<String, String> redisTemplate;
+    private StringRedisTemplate stringRedisTemplate;
 
     @DubboReference(version = "1.0.0")
     private UserFacadeService userFacadeService;
@@ -76,7 +71,7 @@ public class KdController {
     public Result<Boolean> register(@Valid @RequestBody RegisterParam registerParam) {
 
         //验证码校验
-        String cachedCode = redisTemplate.opsForValue().get(CAPTCHA_KEY_PREFIX + registerParam.getTelephone());
+        String cachedCode = stringRedisTemplate.opsForValue().get(CAPTCHA_KEY_PREFIX + registerParam.getTelephone());
         if (!StringUtils.equalsIgnoreCase(cachedCode, registerParam.getCaptcha())) {
             throw new AuthException(VERIFICATION_CODE_WRONG);
         }
@@ -103,7 +98,7 @@ public class KdController {
     public Result<LoginVO> login(@Valid @RequestBody LoginParam loginParam) {
         if (!ROOT_CAPTCHA.equals(loginParam.getCaptcha())) {
             //验证码校验
-            String cachedCode = redisTemplate.opsForValue().get(CAPTCHA_KEY_PREFIX + loginParam.getTelephone());
+            String cachedCode = stringRedisTemplate.opsForValue().get(CAPTCHA_KEY_PREFIX + loginParam.getTelephone());
             if (!StringUtils.equalsIgnoreCase(cachedCode, loginParam.getCaptcha())) {
                 throw new AuthException(VERIFICATION_CODE_WRONG);
             }

@@ -17,7 +17,7 @@ import org.action.sms.resp.SmsSendResponse;
 import org.action.notice.service.NoticeService;
 import org.action.notice.service.TemplateService;
 import org.apache.dubbo.config.annotation.DubboService;
-import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
 /**
  * @author gzw
@@ -40,7 +40,7 @@ public class NoticeKdCadeServiceImpl implements NoticeKdCadeService {
     private TemplateService templateService;
 
     @Resource
-    private RedisTemplate<String, String> redisTemplate;
+    private StringRedisTemplate stringRedisTemplate;
 
     @Override
     @KdCade
@@ -55,7 +55,7 @@ public class NoticeKdCadeServiceImpl implements NoticeKdCadeService {
         String captcha = RandomUtil.randomNumbers(4);
 
         // 验证码存入Redis
-        redisTemplate.opsForValue().set(CAPTCHA_KEY_PREFIX + telephone, captcha, 5, TimeUnit.MINUTES);
+        stringRedisTemplate.opsForValue().set(CAPTCHA_KEY_PREFIX + telephone, captcha, 5, TimeUnit.MINUTES);
 
         Notice notice = noticeService.saveCaptcha(telephone, captcha);
 
