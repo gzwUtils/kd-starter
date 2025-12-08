@@ -9,5 +9,6 @@ spring:
         server-addr: 127.0.0.1:8848
         username: nacos
         password: nacos
-        file-extension: properties
+        file-extension: yaml
         name: ${spring.application.name}
+        namespace: 4e660137-fd6f-47b6-9910-a00ddb3ece77

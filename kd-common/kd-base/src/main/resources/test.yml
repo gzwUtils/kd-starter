@@ -33,7 +33,7 @@ mybatis-plus:
 
 dubbo:
   application:
-    name: kd-turbo-business
+    name: kd-business
   registry:
     address: nacos://${kd.nacos.server.url}  # 这是跑单元测试的时候需要用到nacos地址，也可以把对应的服务mock调，使用@MockBean注解即可
   consumer:

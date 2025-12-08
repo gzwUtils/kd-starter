@@ -45,7 +45,7 @@ public class NoticeKdCadeServiceImpl implements NoticeKdCadeService {
     @Override
     @KdCade
     public NoticeResponse generateAndSendSmsCaptcha(String telephone) {
-        Boolean access = slidingWindowRateLimiter.tryAcquire(telephone, 1, 60);
+        Boolean access = slidingWindowRateLimiter.tryAcquire(telephone, 5, 60);
 
         if (Boolean.FALSE.equals(access)) {
             throw new SystemException(SEND_NOTICE_DUPLICATED);

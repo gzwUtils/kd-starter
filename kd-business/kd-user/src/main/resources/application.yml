@@ -6,3 +6,17 @@ spring:
 
 server:
   port: 8083
+
+mybatis-plus:
+  # 接口扫描（最关键）
+  mapper-locations: classpath*:**/mapper/**/*Mapper.xml   # 如果只用注解，可留空或删掉
+  type-aliases-package: org.action.user.common.entity
+  # ↓↓↓ 这一行决定 Mapper 接口被代理 ↓↓↓
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0

@@ -4,7 +4,7 @@ kd:
       server:
         url: 127.0.0.1:8848
     mysql:
-      url: jdbc:mysql://192.168.0.1:3306/kd # kd.mysql.url - MySQL 的地址+数据库配置 #首次启动前务必修改成你自己的
+      url: jdbc:mysql://127.0.0.1:3306/kd # kd.mysql.url - MySQL 的地址+数据库配置 #首次启动前务必修改成你自己的
       username: root # kd.mysql.username - MySQL 的用户名 #首次启动前务必修改成你自己的
       password: 'gzw941120' # kd.mysql.password - MySQL 的密码 #首次启动前务必修改成你自己的
     redis:
