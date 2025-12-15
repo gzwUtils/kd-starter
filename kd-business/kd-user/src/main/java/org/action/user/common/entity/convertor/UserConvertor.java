@@ -26,7 +26,6 @@ public interface UserConvertor {
      * @return user
      */
     @Mapping(target = "userId", source = "request.id")
-    @Mapping(target = "createTime", source = "request.createTime")
     public UserInfo mapToVo(User request);
 
     /**

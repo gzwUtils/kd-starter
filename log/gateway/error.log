@@ -1,24 +1,89 @@
-2025-12-02 21:48:34.246 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:48:39.346 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:48:51.276 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:50:34.566 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:50:39.035 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:50:43.330 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:50:46.568 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:51:35.021 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:51:38.960 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:51:43.063 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:51:49.416 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 21:52:02.565 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 22:50:11.468 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 22:53:51.564 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 22:58:44.086 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 22:59:41.220 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 22:59:44.369 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 23:00:11.394 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 23:00:13.164 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 23:00:14.781 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 23:00:16.495 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 23:01:45.008 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 23:03:21.062 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
-2025-12-02 23:03:28.616 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 13:48:46.670 [main] ERROR com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-127.0.0.1_8848] [sub-server-error]  dataId=gateway-flow-rules, group=SENTINEL_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='user not found!', requestId='null'}
+2025-12-15 13:58:50.333 [main] ERROR com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-127.0.0.1_8848] [sub-server-error]  dataId=gateway-flow-rules, group=SENTINEL_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='user not found!', requestId='null'}
+2025-12-15 14:18:02.308 [main] ERROR com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-127.0.0.1_8848] [sub-server-error]  dataId=gateway-flow-rules, group=SENTINEL_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='user not found!', requestId='null'}
+2025-12-15 14:33:41.472 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:30.050 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:32.657 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:32.693 [reactor-http-nio-3] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:37.690 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:37.712 [reactor-http-nio-3] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:37.724 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:37.734 [reactor-http-nio-4] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:37.750 [reactor-http-nio-5] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:38.428 [reactor-http-nio-5] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:38.958 [reactor-http-nio-5] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:39.570 [reactor-http-nio-5] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:39.998 [reactor-http-nio-5] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:41.803 [reactor-http-nio-5] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:41.808 [reactor-http-nio-4] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:41.809 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:41.819 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:43.035 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:44.420 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:45.711 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:46.898 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:48.198 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:49.428 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:50.312 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:51.132 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:52.161 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:53.192 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:54.088 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:55.029 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:55.911 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:56.750 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:57.512 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:34:58.041 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:35:00.549 [reactor-http-nio-3] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:35:00.549 [reactor-http-nio-5] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:35:00.549 [reactor-http-nio-4] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:35:00.554 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:38:23.698 [reactor-http-nio-4] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:45:57.084 [reactor-http-nio-4] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:50:24.262 [reactor-http-nio-4] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:53:33.117 [main] ERROR com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-127.0.0.1_8848] [sub-server-error]  dataId=gateway-flow-rules, group=SENTINEL_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='user not found!', requestId='null'}
+2025-12-15 14:54:17.711 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:54:44.882 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:55:29.730 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 14:56:44.131 [main] ERROR com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-127.0.0.1_8848] [sub-server-error]  dataId=gateway-flow-rules, group=SENTINEL_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='user not found!', requestId='null'}
+2025-12-15 15:14:41.098 [main] ERROR com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-127.0.0.1_8848] [sub-server-error]  dataId=gateway-flow-rules, group=SENTINEL_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='user not found!', requestId='null'}
+2025-12-15 15:35:42.476 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 15:36:14.813 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 15:36:23.118 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 15:37:45.815 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 15:43:10.159 [reactor-http-nio-2] ERROR org.action.gateway.auth.SaTokenConfigure - 请先登录
+2025-12-15 15:49:19.599 [redisson-netty-3-30] ERROR i.n.u.concurrent.DefaultPromise.rejectedExecution - Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:934)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:344)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:836)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:827)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:817)
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:862)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:500)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:97)
+	at io.netty.channel.group.DefaultChannelGroupFuture.setSuccess0(DefaultChannelGroupFuture.java:200)
+	at io.netty.channel.group.DefaultChannelGroupFuture.access$400(DefaultChannelGroupFuture.java:41)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:75)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:48)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.nio.NioEventLoop.closeAll(NioEventLoop.java:838)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:595)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

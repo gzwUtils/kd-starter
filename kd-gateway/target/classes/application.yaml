@@ -38,3 +38,6 @@ spring:
             - Path=/admin/**
 server:
   port: 8081
+logging:
+  file:
+    path: log/gateway/

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.action.user.mapper.UserOperateStreamMapper">
+    <resultMap id="resultUserOperateStreamMap" type="org.action.user.common.entity.UserOperateStream">
+        <result property="id" column="ID"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="userId" column="user_id"/>
+        <result property="type" column="type"/>
+        <result property="operateTime" column="operate_time"/>
+        <result property="param" column="param"/>
+        <result property="extendInfo" column="extend_info"/>
+        <result property="delFlag" column="del_flag"/>
+        <result property="lockVersion" column="lock_version"/>
+    </resultMap>
+</mapper>

@@ -116,7 +116,7 @@ public class KdController {
             userRegisterRequest.setInviteCode(loginParam.getInviteCode());
 
             UserOperatorResponse response = userFacadeService.register(userRegisterRequest);
-            if (response.getSuccess()) {
+            if (Boolean.TRUE.equals(response.getSuccess())) {
                 userQueryResponse = userFacadeService.query(userQueryRequest);
                 userInfo = userQueryResponse.getData();
                 StpUtil.login(userInfo.getUserId(), new SaLoginModel().setIsLastingCookie(loginParam.getRememberMe())

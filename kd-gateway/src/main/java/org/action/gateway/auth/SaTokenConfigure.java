@@ -30,7 +30,7 @@ public class SaTokenConfigure {
                 // 鉴权方法：每次访问进入
                 .setAuth(obj -> {
                     // 登录校验 -- 拦截所有路由，并排除/auth/login 用于开放登录
-                    SaRouter.match("/**").notMatch("/auth/**", "/collection/collectionList", "/collection/collectionInfo", "/wxPay/**").check(r -> StpUtil.checkLogin());
+                    SaRouter.match("/**").notMatch("/auth/**").check(r -> StpUtil.checkLogin());
 
                     // 权限认证 -- 不同模块, 校验不同权限
                     SaRouter.match("/admin/**", r -> StpUtil.checkRole(UserRole.ADMIN.name()));

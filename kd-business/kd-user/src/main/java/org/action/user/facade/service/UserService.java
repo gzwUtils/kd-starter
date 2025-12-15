@@ -128,7 +128,7 @@ public class UserService extends ServiceImpl<UserMapper, User> implements Initia
         }
 
         User user = new User();
-        user.register(telephone, nickName, password, inviteCode, inviterId);
+        user = user.register(telephone, nickName, password, inviteCode, inviterId);
         return save(user) ? user : null;
     }
 
