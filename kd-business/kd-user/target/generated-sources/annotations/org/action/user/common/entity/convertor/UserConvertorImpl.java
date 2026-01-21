@@ -10,7 +10,7 @@ import org.action.user.common.entity.User;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-12-02T00:56:04+0800",
+    date = "2025-12-19T00:15:38+0800",
     comments = "version: 1.5.5.Final, compiler: javac, environment: Java 21.0.3 (Oracle Corporation)"
 )
 public class UserConvertorImpl implements UserConvertor {
@@ -25,9 +25,6 @@ public class UserConvertorImpl implements UserConvertor {
 
         if ( request.getId() != null ) {
             userInfo.setUserId( request.getId().longValue() );
-        }
-        if ( request.getCreateTime() != null ) {
-            userInfo.setCreateTime( request.getCreateTime() );
         }
         if ( request.getNickName() != null ) {
             userInfo.setNickName( request.getNickName() );
@@ -49,6 +46,9 @@ public class UserConvertorImpl implements UserConvertor {
         }
         if ( request.getInviteCode() != null ) {
             userInfo.setInviteCode( request.getInviteCode() );
+        }
+        if ( request.getCreateTime() != null ) {
+            userInfo.setCreateTime( request.getCreateTime() );
         }
 
         return userInfo;

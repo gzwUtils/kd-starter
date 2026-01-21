@@ -56,7 +56,7 @@ public class OssServiceImpl implements FileService {
                 uploadRes = true;
             }
         } catch (Exception e) {
-            log.error("OssUtil upload error,path=" + path, e);
+            log.error("OssUtil upload error,path={}" , path, e);
         } finally {
             if (ossClient != null) {
                 ossClient.shutdown();
