@@ -10,50 +10,72 @@
     </parent>
 
     <artifactId>kd-notice</artifactId>
+    <version>1.0</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <application.name>kd-notice</application.name>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.action</groupId>
-            <artifactId>kd-rpc</artifactId>
-            <version>1.0</version>
+            <artifactId>kd-api</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
-            <artifactId>kd-api</artifactId>
-            <version>1.0</version>
+            <artifactId>kd-base</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-limiter</artifactId>
-            <version>1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.action</groupId>
-            <artifactId>kd-cache</artifactId>
-            <version>1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.action</groupId>
-            <artifactId>kd-sms</artifactId>
-            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.action</groupId>
             <artifactId>kd-datasource</artifactId>
-            <version>1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-lock</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-rpc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-sms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-job</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-skywalking</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.action</groupId>
+            <artifactId>kd-web</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -62,15 +84,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>org.action.notice.NoticeApplication</mainClass>
+                    <skip>true</skip>
                 </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>

@@ -8,7 +8,7 @@
 
 
     <!-- name的值是变量的名称，value的值时变量定义的值。通过定义的值会被插入到logger上下文中。定义后，可以使“${}”来使用变量。 -->
-    <springProperty scope="context" name="myLogLocation" source="logging.file.path" default="/var/log/myapp"/>
+    <springProperty scope="context" name="myLogLocation" source="logging.file.path" default="/log/gateway"/>
     <property name="log.path" value="${myLogLocation}"/>
 
     <!-- 彩色日志格式 -->

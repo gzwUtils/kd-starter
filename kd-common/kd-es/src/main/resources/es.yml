@@ -1,0 +1,11 @@
+spring:
+  elasticsearch:
+    enable: ${kd.elasticsearch.enable}
+    uris: http://${kd.elasticsearch.url}
+    username: ${kd.elasticsearch.username}
+    password: ${kd.elasticsearch.password}
+easy-es:
+  enable: ${kd.elasticsearch.enable}
+  address : ${kd.elasticsearch.url}
+  username: ${kd.elasticsearch.username}
+  password: ${kd.elasticsearch.password}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.action.user.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="org.action.user.common.entity.User">
+        <result property="id" column="id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="nickName" column="nick_name"/>
+        <result property="passwordHash" column="password_hash"/>
+        <result property="state" column="state"/>
+        <result property="inviteCode" column="invite_code"/>
+        <result property="telephone" column="telephone"/>
+        <result property="inviterId" column="inviter_id"/>
+        <result property="lastLoginTime" column="last_login_time"/>
+        <result property="profilePhotoUrl" column="profile_photo_url"/>
+        <result property="blockChainUrl" column="block_chain_url"/>
+        <result property="blockChainPlatform" column="block_chain_platform"/>
+        <result property="certification" column="certification"/>
+        <result property="realName" column="real_name" typeHandler="org.action.user.mapper.AesEncryptTypeHandler"/>
+        <result property="idCardNo" column="id_card_no" typeHandler="org.action.user.mapper.AesEncryptTypeHandler"/>
+        <result property="userRole" column="user_role"/>
+        <result property="delFlag" column="del_flag"/>
+        <result property="lockVersion" column="lock_version"/>
+    </resultMap>
+
+
+    <select id="findById" resultMap="BaseResultMap">
+        select * from users where del_flag=0
+        <if test="id!=null">AND id = #{id}</if>
+    </select>
+
+    <select id="findByNickname" resultMap="BaseResultMap">
+        select * from users where del_flag=0
+        <if test="nickName!=null">AND nick_name = #{nickName}</if>
+    </select>
+
+    <select id="findByInviteCode" resultMap="BaseResultMap">
+        select * from users where del_flag=0
+        <if test="inviteCode!=null">AND invite_code = #{inviteCode}</if>
+    </select>
+
+    <select id="findByTelephone" resultMap="BaseResultMap">
+        select * from users where del_flag=0
+        <if test="telephone!=null">AND telephone = #{telephone}</if>
+    </select>
+
+    <select id="findByTelephoneAndPass" resultMap="BaseResultMap">
+        select * from users where del_flag=0
+        <if test="telephone!=null">AND telephone = #{telephone}</if>
+        <if test="passwordHash!=null">AND password_hash = #{passwordHash}</if>
+    </select>
+</mapper>

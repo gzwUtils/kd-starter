@@ -3,13 +3,14 @@ import com.alibaba.fastjson2.JSON;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
-import javax.validation.ValidationException;
+
+import jakarta.validation.ValidationException;
 import lombok.extern.slf4j.Slf4j;
-import org.action.enums.RepoErrorCode;
-import org.action.exception.BizException;
-import org.action.exception.SystemException;
-import org.action.response.BaseResponse;
-import org.action.utils.BeanValidator;
+import org.action.base.enums.RepoErrorCode;
+import org.action.base.exception.BizException;
+import org.action.base.exception.SystemException;
+import org.action.base.response.BaseResponse;
+import org.action.base.utils.BeanValidator;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.time.StopWatch;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -118,7 +119,7 @@ public class KdCadeAspect {
 
         if (response instanceof BaseResponse) {
             BaseResponse baseResponse = (BaseResponse) response;
-            if (!baseResponse.getSuccess()) {
+            if (Boolean.FALSE.equals(baseResponse.getSuccess())) {
                 stringBuilder.append(" , execute_failed");
             }
         }
@@ -133,7 +134,7 @@ public class KdCadeAspect {
      */
     private void enrichObject(Object response) {
         if (response instanceof BaseResponse) {
-            if (((BaseResponse) response).getSuccess()) {
+            if (Boolean.TRUE.equals(((BaseResponse) response).getSuccess())) {
                 //如果状态是成功的，需要将未设置的responseCode设置成SUCCESS
                 if (StringUtils.isEmpty(((BaseResponse) response).getCode())) {
                     ((BaseResponse) response).setCode(RepoErrorCode.SUCCESS.name());

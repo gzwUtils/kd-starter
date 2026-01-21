@@ -6,8 +6,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.action.notice.entity.Notice;
 import org.action.notice.enums.NoticeState;
 import org.action.notice.enums.NoticeType;
-import static org.action.enums.RepoErrorCode.NOTICE_SAVE_FAILED;
-import org.action.exception.BizException;
+import static org.action.base.enums.RepoErrorCode.NOTICE_SAVE_FAILED;
+import org.action.base.exception.BizException;
 import org.action.notice.kd.mapper.NoticeMapper;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +20,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class NoticeService extends ServiceImpl<NoticeMapper, Notice> {
 
+    private static final String SMS_NOTICE_TITLE = "验证码";
+
     public Page<Notice> pageQueryForRetry(int currentPage, int pageSize) {
         Page<Notice> page = new Page<>(currentPage, pageSize);
         QueryWrapper<Notice> wrapper = new QueryWrapper<>();
@@ -31,10 +33,10 @@ public class NoticeService extends ServiceImpl<NoticeMapper, Notice> {
     }
 
 
-    public Notice saveCaptcha(String telephone, String context,String templateName) {
+    public Notice saveCaptcha(String telephone, String captcha) {
         Notice notice = Notice.builder()
-                .noticeTitle(templateName)
-                .noticeContent(context)
+                .noticeTitle(SMS_NOTICE_TITLE)
+                .noticeContent(captcha)
                 .noticeType(NoticeType.SMS)
                 .targetAddress(telephone)
                 .state(NoticeState.INIT)
